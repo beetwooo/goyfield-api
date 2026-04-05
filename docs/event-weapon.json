@@ -1,54 +1,54 @@
 {
   "Event Weapon": {
     "Lupine Scarlet": {
-      "Total Users": 269,
-      "Total Pulls": 13330,
+      "Total Users": 271,
+      "Total Pulls": 13390,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.929%",
-        "Count": 657,
+        "Rate": "4.944%",
+        "Count": 662,
         "Median Pity": 13,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.209%",
-        "Count": 2294
+        "Rate": "17.229%",
+        "Count": 2307
       },
-      "Total Obtained": 209,
+      "Total Obtained": 211,
       "Featured Image": null
     },
     "Brigand's Calling": {
       "Total Users": 473,
-      "Total Pulls": 22530,
+      "Total Pulls": 22540,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.113%",
-        "Count": 1152,
+        "Rate": "5.115%",
+        "Count": 1153,
         "Median Pity": 13,
         "Won": "27%"
       },
       "5-Star": {
-        "Rate": "16.800%",
-        "Count": 3785
+        "Rate": "16.797%",
+        "Count": 3786
       },
-      "Total Obtained": 374,
+      "Total Obtained": 375,
       "Featured Image": null
     },
     "Graffiti Issue": {
-      "Total Users": 870,
-      "Total Pulls": 42100,
+      "Total Users": 871,
+      "Total Pulls": 42110,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.157%",
-        "Count": 2171,
+        "Rate": "5.160%",
+        "Count": 2173,
         "Median Pity": 13,
         "Won": "20%"
       },
       "5-Star": {
-        "Rate": "17.178%",
-        "Count": 7232
+        "Rate": "17.176%",
+        "Count": 7233
       },
-      "Total Obtained": 689,
+      "Total Obtained": 690,
       "Featured Image": null
     },
     "Express Delivery Issue": {
