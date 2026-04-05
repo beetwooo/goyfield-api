@@ -1,3 +1,89 @@
 {
-  "error": "Could not find the banner-type selector button on the page"
+  "Special Headhunting": {
+    "Wolf Pearl": {
+      "Total Users": 421,
+      "Total Pulls": 31722,
+      "Oroberyl Spent": 15861000,
+      "6-Star": {
+        "Rate": "1.999%",
+        "Count": 634,
+        "Median Pity": 24,
+        "Won": "52%"
+      },
+      "5-Star": {
+        "Rate": "11.891%",
+        "Count": 3772
+      },
+      "Total Obtained": 380,
+      "Featured Image": "https://goyfield.moe/images/operators/preview/rossi.png"
+    },
+    "River's Daughter": {
+      "Total Users": 756,
+      "Total Pulls": 57188,
+      "Oroberyl Spent": 28594000,
+      "6-Star": {
+        "Rate": "1.932%",
+        "Count": 1105,
+        "Median Pity": 30,
+        "Won": "51%"
+      },
+      "5-Star": {
+        "Rate": "11.842%",
+        "Count": 6772
+      },
+      "Total Obtained": 645,
+      "Featured Image": "https://goyfield.moe/images/operators/preview/tangtang.png"
+    },
+    "Hues Of Passion": {
+      "Total Users": 1539,
+      "Total Pulls": 100485,
+      "Oroberyl Spent": 50242500,
+      "6-Star": {
+        "Rate": "1.728%",
+        "Count": 1736,
+        "Median Pity": 25,
+        "Won": "51%"
+      },
+      "5-Star": {
+        "Rate": "11.873%",
+        "Count": 11931
+      },
+      "Total Obtained": 1008,
+      "Featured Image": "https://goyfield.moe/images/operators/preview/yvonne.png"
+    },
+    "The Floaty Messenger": {
+      "Total Users": 2544,
+      "Total Pulls": 210843,
+      "Oroberyl Spent": 105421500,
+      "6-Star": {
+        "Rate": "1.849%",
+        "Count": 3899,
+        "Median Pity": 31,
+        "Won": "50%"
+      },
+      "5-Star": {
+        "Rate": "12.169%",
+        "Count": 25658
+      },
+      "Total Obtained": 2248,
+      "Featured Image": "https://goyfield.moe/images/operators/preview/gilberta.png"
+    },
+    "Scars Of The Forge": {
+      "Total Users": 2486,
+      "Total Pulls": 258635,
+      "Oroberyl Spent": 129317500,
+      "6-Star": {
+        "Rate": "1.714%",
+        "Count": 4434,
+        "Median Pity": 46,
+        "Won": "52%"
+      },
+      "5-Star": {
+        "Rate": "12.370%",
+        "Count": 31994
+      },
+      "Total Obtained": 2652,
+      "Featured Image": "https://goyfield.moe/images/operators/preview/laevatain.png"
+    }
+  }
 }
