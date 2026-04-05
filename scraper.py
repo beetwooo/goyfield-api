@@ -19,19 +19,24 @@ import sys
 
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
+# ── Output dir ────────────────────────────────────────────────────────────────
+
+DOCS_DIR = "docs"
+os.makedirs(DOCS_DIR, exist_ok=True)
+
 # ── Banner config ─────────────────────────────────────────────────────────────
 
 # Single-view banners (no sub-banner dropdown)
 SINGLE_BANNERS = {
-    "Basic Headhunting":        "basic-headhunting.json",
-    "New Horizons Headhunting": "new-horizons-headhunting.json",
+    "Basic Headhunting":        f"{DOCS_DIR}/basic-headhunting.json",
+    "New Horizons Headhunting": f"{DOCS_DIR}/new-horizons-headhunting.json",
 }
 
 # Multi sub-banner types (have a character/weapon picker)
 MULTI_BANNERS = {
-    "Special Headhunting": "special-headhunting.json",
-    "Event Weapon":        "event-weapon.json",
-    "Standard Weapon":     "standard-weapon.json",
+    "Special Headhunting": f"{DOCS_DIR}/special-headhunting.json",
+    "Event Weapon":        f"{DOCS_DIR}/event-weapon.json",
+    "Standard Weapon":     f"{DOCS_DIR}/standard-weapon.json",
 }
 
 ALL_BANNER_TYPES = list(SINGLE_BANNERS.keys()) + list(MULTI_BANNERS.keys())
@@ -157,8 +162,8 @@ def build_entry(raw: dict, include_obtained: bool = False, debug: bool = False) 
         },
     }
     if include_obtained:
-        entry["Total Obtained"]   = clean(raw.get("total_obtained"))
-        entry["Featured Image"]   = raw.get("featured_img")
+        entry["Total Obtained"] = clean(raw.get("total_obtained"))
+        entry["Featured Image"] = raw.get("featured_img")
     return entry
 
 
@@ -364,7 +369,7 @@ def scrape(debug: bool):
                 with open(filename, "w", encoding="utf-8") as f:
                     json.dump({"error": str(e)}, f, indent=2)
 
-        # ── Multi sub-banner banners ───────────────────────────────────────────
+        # ── Multi sub-banner banners ──────────────────────────────────────────
         for banner_label, filename in MULTI_BANNERS.items():
             print(f"\n{'━'*60}")
             print(f"  ▶ {banner_label} (multi)")
