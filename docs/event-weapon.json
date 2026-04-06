@@ -1,18 +1,18 @@
 {
   "Event Weapon": {
     "Lupine Scarlet": {
-      "Total Users": 276,
-      "Total Pulls": 13580,
+      "Total Users": 277,
+      "Total Pulls": 13620,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.941%",
-        "Count": 671,
+        "Rate": "4.934%",
+        "Count": 672,
         "Median Pity": 13,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.239%",
-        "Count": 2341
+        "Rate": "17.247%",
+        "Count": 2349
       },
       "Total Obtained": 214,
       "Featured Image": null
@@ -52,20 +52,20 @@
       "Featured Image": null
     },
     "Express Delivery Issue": {
-      "Total Users": 1669,
-      "Total Pulls": 79755,
+      "Total Users": 1670,
+      "Total Pulls": 79805,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.072%",
-        "Count": 4045,
+        "Rate": "5.071%",
+        "Count": 4047,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.085%",
-        "Count": 13626
+        "Rate": "17.082%",
+        "Count": 13632
       },
-      "Total Obtained": 1329,
+      "Total Obtained": 1330,
       "Featured Image": null
     },
     "Smelting Forge Issue": {
