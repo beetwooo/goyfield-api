@@ -1,54 +1,54 @@
 {
   "Special Headhunting": {
     "Wolf Pearl": {
-      "Total Users": 443,
-      "Total Pulls": 33266,
-      "Oroberyl Spent": 16633000,
+      "Total Users": 444,
+      "Total Pulls": 33339,
+      "Oroberyl Spent": 16669500,
       "6-Star": {
-        "Rate": "2.020%",
-        "Count": 672,
+        "Rate": "2.019%",
+        "Count": 673,
         "Median Pity": 24,
         "Won": "52%"
       },
       "5-Star": {
-        "Rate": "11.940%",
-        "Count": 3972
+        "Rate": "11.944%",
+        "Count": 3982
       },
-      "Total Obtained": 401,
+      "Total Obtained": 402,
       "Featured Image": "https://goyfield.moe/images/operators/preview/rossi.png"
     },
     "River's Daughter": {
-      "Total Users": 773,
-      "Total Pulls": 58280,
-      "Oroberyl Spent": 29140000,
+      "Total Users": 774,
+      "Total Pulls": 58350,
+      "Oroberyl Spent": 29175000,
       "6-Star": {
-        "Rate": "1.920%",
-        "Count": 1119,
+        "Rate": "1.921%",
+        "Count": 1121,
         "Median Pity": 30,
         "Won": "51%"
       },
       "5-Star": {
-        "Rate": "11.843%",
-        "Count": 6902
+        "Rate": "11.841%",
+        "Count": 6909
       },
-      "Total Obtained": 652,
+      "Total Obtained": 653,
       "Featured Image": "https://goyfield.moe/images/operators/preview/tangtang.png"
     },
     "Hues Of Passion": {
-      "Total Users": 1554,
-      "Total Pulls": 101665,
-      "Oroberyl Spent": 50832500,
+      "Total Users": 1555,
+      "Total Pulls": 101735,
+      "Oroberyl Spent": 50867500,
       "6-Star": {
-        "Rate": "1.728%",
-        "Count": 1757,
+        "Rate": "1.729%",
+        "Count": 1759,
         "Median Pity": 25,
         "Won": "51%"
       },
       "5-Star": {
         "Rate": "11.865%",
-        "Count": 12063
+        "Count": 12071
       },
-      "Total Obtained": 1017,
+      "Total Obtained": 1019,
       "Featured Image": "https://goyfield.moe/images/operators/preview/yvonne.png"
     },
     "The Floaty Messenger": {
