@@ -1,3 +1,89 @@
 {
-  "error": "Could not find sub-banner trigger button"
+  "Event Weapon": {
+    "Lupine Scarlet": {
+      "Total Users": 280,
+      "Total Pulls": 13790,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "4.938%",
+        "Count": 681,
+        "Median Pity": 13,
+        "Won": "26%"
+      },
+      "5-Star": {
+        "Rate": "17.259%",
+        "Count": 2380
+      },
+      "Total Obtained": 216,
+      "Featured Image": null
+    },
+    "Brigand's Calling": {
+      "Total Users": 478,
+      "Total Pulls": 22680,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "5.128%",
+        "Count": 1163,
+        "Median Pity": 13,
+        "Won": "27%"
+      },
+      "5-Star": {
+        "Rate": "16.790%",
+        "Count": 3808
+      },
+      "Total Obtained": 380,
+      "Featured Image": null
+    },
+    "Graffiti Issue": {
+      "Total Users": 877,
+      "Total Pulls": 42470,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "5.159%",
+        "Count": 2191,
+        "Median Pity": 13,
+        "Won": "20%"
+      },
+      "5-Star": {
+        "Rate": "17.198%",
+        "Count": 7304
+      },
+      "Total Obtained": 695,
+      "Featured Image": null
+    },
+    "Express Delivery Issue": {
+      "Total Users": 1674,
+      "Total Pulls": 80065,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "5.070%",
+        "Count": 4059,
+        "Median Pity": 14,
+        "Won": "26%"
+      },
+      "5-Star": {
+        "Rate": "17.087%",
+        "Count": 13681
+      },
+      "Total Obtained": 1333,
+      "Featured Image": null
+    },
+    "Smelting Forge Issue": {
+      "Total Users": 2094,
+      "Total Pulls": 142690,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "5.237%",
+        "Count": 7473,
+        "Median Pity": 14,
+        "Won": "26%"
+      },
+      "5-Star": {
+        "Rate": "17.191%",
+        "Count": 24530
+      },
+      "Total Obtained": 2452,
+      "Featured Image": null
+    }
+  }
 }

@@ -1,3 +1,89 @@
 {
-  "error": "Could not find sub-banner trigger button"
+  "Standard Weapon": {
+    "Solid Ice Issue": {
+      "Total Users": 901,
+      "Total Pulls": 36360,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "5.011%",
+        "Count": 1822,
+        "Median Pity": 13,
+        "Won": "27%"
+      },
+      "5-Star": {
+        "Rate": "16.969%",
+        "Count": 6170
+      },
+      "Total Obtained": 609,
+      "Featured Image": null
+    },
+    "Cosmic Voice Issue": {
+      "Total Users": 2457,
+      "Total Pulls": 31425,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "4.159%",
+        "Count": 1307,
+        "Median Pity": 5,
+        "Won": "25%"
+      },
+      "5-Star": {
+        "Rate": "16.678%",
+        "Count": 5241
+      },
+      "Total Obtained": 341,
+      "Featured Image": null
+    },
+    "Far Expedition Issue": {
+      "Total Users": 799,
+      "Total Pulls": 33135,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "4.916%",
+        "Count": 1629,
+        "Median Pity": 12,
+        "Won": "27%"
+      },
+      "5-Star": {
+        "Rate": "16.762%",
+        "Count": 5554
+      },
+      "Total Obtained": 527,
+      "Featured Image": null
+    },
+    "Rising Mount Issue": {
+      "Total Users": 310,
+      "Total Pulls": 11275,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "4.914%",
+        "Count": 554,
+        "Median Pity": 12,
+        "Won": "23%"
+      },
+      "5-Star": {
+        "Rate": "16.674%",
+        "Count": 1880
+      },
+      "Total Obtained": 158,
+      "Featured Image": null
+    },
+    "Thunderous Peal Issue": {
+      "Total Users": 232,
+      "Total Pulls": 8470,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "4.545%",
+        "Count": 385,
+        "Median Pity": 12,
+        "Won": "24%"
+      },
+      "5-Star": {
+        "Rate": "16.541%",
+        "Count": 1401
+      },
+      "Total Obtained": 114,
+      "Featured Image": null
+    }
+  }
 }
