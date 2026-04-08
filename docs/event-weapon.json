@@ -1,20 +1,20 @@
 {
   "Event Weapon": {
     "Lupine Scarlet": {
-      "Total Users": 293,
-      "Total Pulls": 14440,
+      "Total Users": 294,
+      "Total Pulls": 14540,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.903%",
-        "Count": 708,
+        "Rate": "4.897%",
+        "Count": 712,
         "Median Pity": 13,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.251%",
-        "Count": 2491
+        "Rate": "17.263%",
+        "Count": 2510
       },
-      "Total Obtained": 223,
+      "Total Obtained": 224,
       "Featured Image": null
     },
     "Brigand's Calling": {
