@@ -1,43 +1,43 @@
 {
   "Special Headhunting": {
     "Wolf Pearl": {
-      "Total Users": 460,
-      "Total Pulls": 34446,
-      "Oroberyl Spent": 17223000,
+      "Total Users": 461,
+      "Total Pulls": 34574,
+      "Oroberyl Spent": 17287000,
       "6-Star": {
-        "Rate": "2.015%",
-        "Count": 694,
+        "Rate": "2.013%",
+        "Count": 696,
         "Median Pity": 23,
         "Won": "52%"
       },
       "5-Star": {
-        "Rate": "11.932%",
-        "Count": 4110
+        "Rate": "11.937%",
+        "Count": 4127
       },
-      "Total Obtained": 416,
+      "Total Obtained": 418,
       "Featured Image": "https://goyfield.moe/images/operators/preview/rossi.png"
     },
     "River's Daughter": {
-      "Total Users": 785,
-      "Total Pulls": 59018,
-      "Oroberyl Spent": 29509000,
+      "Total Users": 786,
+      "Total Pulls": 59058,
+      "Oroberyl Spent": 29529000,
       "6-Star": {
-        "Rate": "1.925%",
-        "Count": 1136,
+        "Rate": "1.927%",
+        "Count": 1138,
         "Median Pity": 30,
         "Won": "51%"
       },
       "5-Star": {
-        "Rate": "11.830%",
-        "Count": 6982
+        "Rate": "11.831%",
+        "Count": 6987
       },
-      "Total Obtained": 661,
+      "Total Obtained": 662,
       "Featured Image": "https://goyfield.moe/images/operators/preview/tangtang.png"
     },
     "Hues Of Passion": {
       "Total Users": 1564,
-      "Total Pulls": 102367,
-      "Oroberyl Spent": 51183500,
+      "Total Pulls": 102397,
+      "Oroberyl Spent": 51198500,
       "6-Star": {
         "Rate": "1.727%",
         "Count": 1768,
@@ -46,7 +46,7 @@
       },
       "5-Star": {
         "Rate": "11.864%",
-        "Count": 12145
+        "Count": 12148
       },
       "Total Obtained": 1023,
       "Featured Image": "https://goyfield.moe/images/operators/preview/yvonne.png"
