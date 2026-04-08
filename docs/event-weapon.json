@@ -1,18 +1,18 @@
 {
   "Event Weapon": {
     "Lupine Scarlet": {
-      "Total Users": 294,
-      "Total Pulls": 14540,
+      "Total Users": 295,
+      "Total Pulls": 14610,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.897%",
-        "Count": 712,
+        "Rate": "4.887%",
+        "Count": 714,
         "Median Pity": 13,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.263%",
-        "Count": 2510
+        "Rate": "17.242%",
+        "Count": 2519
       },
       "Total Obtained": 224,
       "Featured Image": null
