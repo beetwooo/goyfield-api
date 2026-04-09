@@ -1,69 +1,69 @@
 {
   "Standard Weapon": {
     "Solid Ice Issue": {
-      "Total Users": 903,
-      "Total Pulls": 36460,
+      "Total Users": 905,
+      "Total Pulls": 36620,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.011%",
-        "Count": 1827,
+        "Rate": "5.025%",
+        "Count": 1840,
         "Median Pity": 13,
         "Won": "27%"
       },
       "5-Star": {
         "Rate": "16.969%",
-        "Count": 6187
+        "Count": 6214
       },
-      "Total Obtained": 611,
+      "Total Obtained": 613,
       "Featured Image": null
     },
     "Cosmic Voice Issue": {
-      "Total Users": 2466,
-      "Total Pulls": 31515,
+      "Total Users": 2472,
+      "Total Pulls": 31575,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.160%",
-        "Count": 1311,
+        "Rate": "4.158%",
+        "Count": 1313,
         "Median Pity": 5,
         "Won": "25%"
       },
       "5-Star": {
         "Rate": "16.687%",
-        "Count": 5259
+        "Count": 5269
       },
-      "Total Obtained": 343,
+      "Total Obtained": 344,
       "Featured Image": null
     },
     "Far Expedition Issue": {
-      "Total Users": 802,
-      "Total Pulls": 33285,
+      "Total Users": 804,
+      "Total Pulls": 33365,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.912%",
-        "Count": 1635,
+        "Rate": "4.906%",
+        "Count": 1637,
         "Median Pity": 12,
         "Won": "27%"
       },
       "5-Star": {
-        "Rate": "16.755%",
-        "Count": 5577
+        "Rate": "16.763%",
+        "Count": 5593
       },
       "Total Obtained": 530,
       "Featured Image": null
     },
     "Rising Mount Issue": {
-      "Total Users": 313,
-      "Total Pulls": 11325,
+      "Total Users": 314,
+      "Total Pulls": 11345,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.909%",
-        "Count": 556,
+        "Rate": "4.918%",
+        "Count": 558,
         "Median Pity": 12,
         "Won": "23%"
       },
       "5-Star": {
-        "Rate": "16.653%",
-        "Count": 1886
+        "Rate": "16.651%",
+        "Count": 1889
       },
       "Total Obtained": 160,
       "Featured Image": null
