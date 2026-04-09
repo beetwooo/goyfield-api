@@ -2,17 +2,17 @@
   "Special Headhunting": {
     "Wolf Pearl": {
       "Total Users": 489,
-      "Total Pulls": 36756,
-      "Oroberyl Spent": 18378000,
+      "Total Pulls": 36775,
+      "Oroberyl Spent": 18387500,
       "6-Star": {
-        "Rate": "2.013%",
+        "Rate": "2.012%",
         "Count": 740,
         "Median Pity": 24,
         "Won": "53%"
       },
       "5-Star": {
-        "Rate": "11.922%",
-        "Count": 4382
+        "Rate": "11.924%",
+        "Count": 4385
       },
       "Total Obtained": 446,
       "Featured Image": "https://goyfield.moe/images/operators/preview/rossi.png"
