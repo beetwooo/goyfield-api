@@ -18,71 +18,71 @@
       "Featured Image": null
     },
     "Brigand's Calling": {
-      "Total Users": 512,
-      "Total Pulls": 24100,
+      "Total Users": 513,
+      "Total Pulls": 24130,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.120%",
-        "Count": 1234,
+        "Rate": "5.118%",
+        "Count": 1235,
         "Median Pity": 13,
         "Won": "28%"
       },
       "5-Star": {
-        "Rate": "16.730%",
-        "Count": 4032
+        "Rate": "16.726%",
+        "Count": 4036
       },
       "Total Obtained": 409,
       "Featured Image": null
     },
     "Graffiti Issue": {
-      "Total Users": 895,
-      "Total Pulls": 43550,
+      "Total Users": 896,
+      "Total Pulls": 43590,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.139%",
-        "Count": 2238,
+        "Count": 2240,
         "Median Pity": 13,
         "Won": "20%"
       },
       "5-Star": {
-        "Rate": "17.187%",
-        "Count": 7485
+        "Rate": "17.185%",
+        "Count": 7491
       },
-      "Total Obtained": 711,
+      "Total Obtained": 712,
       "Featured Image": null
     },
     "Express Delivery Issue": {
       "Total Users": 1704,
-      "Total Pulls": 81585,
+      "Total Pulls": 81625,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.063%",
-        "Count": 4131,
+        "Rate": "5.065%",
+        "Count": 4134,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.093%",
-        "Count": 13945
+        "Rate": "17.092%",
+        "Count": 13951
       },
-      "Total Obtained": 1355,
+      "Total Obtained": 1356,
       "Featured Image": null
     },
     "Smelting Forge Issue": {
-      "Total Users": 2130,
-      "Total Pulls": 145470,
+      "Total Users": 2131,
+      "Total Pulls": 145540,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.235%",
-        "Count": 7615,
+        "Rate": "5.234%",
+        "Count": 7618,
         "Median Pity": 14,
         "Won": "25%"
       },
       "5-Star": {
-        "Rate": "17.175%",
-        "Count": 24984
+        "Rate": "17.174%",
+        "Count": 24995
       },
-      "Total Obtained": 2487,
+      "Total Obtained": 2488,
       "Featured Image": null
     }
   }

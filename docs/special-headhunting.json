@@ -1,54 +1,54 @@
 {
   "Special Headhunting": {
     "Wolf Pearl": {
-      "Total Users": 503,
-      "Total Pulls": 39095,
-      "Oroberyl Spent": 19547500,
+      "Total Users": 505,
+      "Total Pulls": 39205,
+      "Oroberyl Spent": 19602500,
       "6-Star": {
-        "Rate": "2.016%",
-        "Count": 788,
+        "Rate": "2.012%",
+        "Count": 789,
         "Median Pity": 24,
         "Won": "53%"
       },
       "5-Star": {
-        "Rate": "11.971%",
-        "Count": 4680
+        "Rate": "11.965%",
+        "Count": 4691
       },
-      "Total Obtained": 472,
+      "Total Obtained": 473,
       "Featured Image": "https://goyfield.moe/images/operators/preview/rossi.png"
     },
     "River's Daughter": {
-      "Total Users": 819,
-      "Total Pulls": 60969,
-      "Oroberyl Spent": 30484500,
+      "Total Users": 821,
+      "Total Pulls": 61110,
+      "Oroberyl Spent": 30555000,
       "6-Star": {
         "Rate": "1.919%",
-        "Count": 1170,
+        "Count": 1173,
         "Median Pity": 30,
-        "Won": "51%"
+        "Won": "52%"
       },
       "5-Star": {
-        "Rate": "11.827%",
-        "Count": 7211
+        "Rate": "11.825%",
+        "Count": 7226
       },
-      "Total Obtained": 681,
+      "Total Obtained": 684,
       "Featured Image": "https://goyfield.moe/images/operators/preview/tangtang.png"
     },
     "Hues Of Passion": {
-      "Total Users": 1595,
-      "Total Pulls": 103937,
-      "Oroberyl Spent": 51968500,
+      "Total Users": 1596,
+      "Total Pulls": 104017,
+      "Oroberyl Spent": 52008500,
       "6-Star": {
-        "Rate": "1.719%",
-        "Count": 1787,
+        "Rate": "1.721%",
+        "Count": 1790,
         "Median Pity": 25,
         "Won": "51%"
       },
       "5-Star": {
         "Rate": "11.848%",
-        "Count": 12314
+        "Count": 12324
       },
-      "Total Obtained": 1033,
+      "Total Obtained": 1034,
       "Featured Image": "https://goyfield.moe/images/operators/preview/yvonne.png"
     },
     "The Floaty Messenger": {
