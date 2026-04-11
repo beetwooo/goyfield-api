@@ -1,26 +1,26 @@
 {
   "Special Headhunting": {
     "Wolf Pearl": {
-      "Total Users": 507,
-      "Total Pulls": 39296,
-      "Oroberyl Spent": 19648000,
+      "Total Users": 508,
+      "Total Pulls": 39359,
+      "Oroberyl Spent": 19679500,
       "6-Star": {
-        "Rate": "2.013%",
+        "Rate": "2.010%",
         "Count": 791,
         "Median Pity": 24,
         "Won": "53%"
       },
       "5-Star": {
-        "Rate": "11.958%",
-        "Count": 4699
+        "Rate": "11.957%",
+        "Count": 4706
       },
       "Total Obtained": 475,
       "Featured Image": "https://goyfield.moe/images/operators/preview/rossi.png"
     },
     "River's Daughter": {
-      "Total Users": 822,
-      "Total Pulls": 61180,
-      "Oroberyl Spent": 30590000,
+      "Total Users": 823,
+      "Total Pulls": 61190,
+      "Oroberyl Spent": 30595000,
       "6-Star": {
         "Rate": "1.919%",
         "Count": 1174,
@@ -28,8 +28,8 @@
         "Won": "52%"
       },
       "5-Star": {
-        "Rate": "11.821%",
-        "Count": 7232
+        "Rate": "11.822%",
+        "Count": 7234
       },
       "Total Obtained": 685,
       "Featured Image": "https://goyfield.moe/images/operators/preview/tangtang.png"
