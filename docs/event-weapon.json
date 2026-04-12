@@ -1,18 +1,18 @@
 {
   "Event Weapon": {
     "Lupine Scarlet": {
-      "Total Users": 345,
-      "Total Pulls": 17560,
+      "Total Users": 346,
+      "Total Pulls": 17600,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "4.841%",
-        "Count": 850,
+        "Count": 852,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.090%",
-        "Count": 3001
+        "Rate": "17.108%",
+        "Count": 3011
       },
       "Total Obtained": 266,
       "Featured Image": null
@@ -35,54 +35,54 @@
       "Featured Image": null
     },
     "Graffiti Issue": {
-      "Total Users": 910,
-      "Total Pulls": 44430,
+      "Total Users": 911,
+      "Total Pulls": 44440,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.141%",
+        "Rate": "5.140%",
         "Count": 2284,
         "Median Pity": 13,
         "Won": "20%"
       },
       "5-Star": {
-        "Rate": "17.180%",
-        "Count": 7633
+        "Rate": "17.183%",
+        "Count": 7636
       },
       "Total Obtained": 724,
       "Featured Image": null
     },
     "Express Delivery Issue": {
-      "Total Users": 1719,
-      "Total Pulls": 82645,
+      "Total Users": 1721,
+      "Total Pulls": 82735,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.069%",
-        "Count": 4189,
+        "Count": 4194,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.086%",
-        "Count": 14121
+        "Rate": "17.087%",
+        "Count": 14137
       },
-      "Total Obtained": 1377,
+      "Total Obtained": 1378,
       "Featured Image": null
     },
     "Smelting Forge Issue": {
-      "Total Users": 2153,
-      "Total Pulls": 146950,
+      "Total Users": 2155,
+      "Total Pulls": 147230,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.232%",
-        "Count": 7688,
+        "Rate": "5.230%",
+        "Count": 7700,
         "Median Pity": 14,
         "Won": "25%"
       },
       "5-Star": {
-        "Rate": "17.157%",
-        "Count": 25212
+        "Rate": "17.160%",
+        "Count": 25264
       },
-      "Total Obtained": 2510,
+      "Total Obtained": 2515,
       "Featured Image": null
     }
   }
