@@ -1,17 +1,3 @@
 {
-  "New Horizons Headhunting": {
-    "Total Users": 2714,
-    "Total Pulls": 107690,
-    "Oroberyl Spent": null,
-    "6-Star": {
-      "Rate": "2.597%",
-      "Count": 2797,
-      "Median Pity": 40,
-      "Won": null
-    },
-    "5-Star": {
-      "Rate": "12.627%",
-      "Count": 13598
-    }
-  }
+  "error": "Could not switch to 'New Horizons Headhunting' after 3 attempts"
 }
