@@ -1,3 +1,17 @@
 {
-  "error": "Could not switch to 'Basic Headhunting' after 3 attempts"
+  "Basic Headhunting": {
+    "Total Users": 2708,
+    "Total Pulls": 301097,
+    "Oroberyl Spent": 150548500,
+    "6-Star": {
+      "Rate": "1.556%",
+      "Count": 4684,
+      "Median Pity": 60,
+      "Won": null
+    },
+    "5-Star": {
+      "Rate": "13.367%",
+      "Count": 40249
+    }
+  }
 }

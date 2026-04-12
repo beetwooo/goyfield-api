@@ -1,3 +1,89 @@
 {
-  "error": "Could not switch to 'Event Weapon' after 3 attempts"
+  "Event Weapon": {
+    "Lupine Scarlet": {
+      "Total Users": 345,
+      "Total Pulls": 17560,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "4.841%",
+        "Count": 850,
+        "Median Pity": 14,
+        "Won": "26%"
+      },
+      "5-Star": {
+        "Rate": "17.090%",
+        "Count": 3001
+      },
+      "Total Obtained": 266,
+      "Featured Image": null
+    },
+    "Brigand's Calling": {
+      "Total Users": 534,
+      "Total Pulls": 25560,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "5.102%",
+        "Count": 1304,
+        "Median Pity": 14,
+        "Won": "27%"
+      },
+      "5-Star": {
+        "Rate": "16.737%",
+        "Count": 4278
+      },
+      "Total Obtained": 429,
+      "Featured Image": null
+    },
+    "Graffiti Issue": {
+      "Total Users": 910,
+      "Total Pulls": 44430,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "5.141%",
+        "Count": 2284,
+        "Median Pity": 13,
+        "Won": "20%"
+      },
+      "5-Star": {
+        "Rate": "17.180%",
+        "Count": 7633
+      },
+      "Total Obtained": 724,
+      "Featured Image": null
+    },
+    "Express Delivery Issue": {
+      "Total Users": 1718,
+      "Total Pulls": 82545,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "5.068%",
+        "Count": 4183,
+        "Median Pity": 14,
+        "Won": "26%"
+      },
+      "5-Star": {
+        "Rate": "17.086%",
+        "Count": 14104
+      },
+      "Total Obtained": 1376,
+      "Featured Image": null
+    },
+    "Smelting Forge Issue": {
+      "Total Users": 2152,
+      "Total Pulls": 146850,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "5.232%",
+        "Count": 7683,
+        "Median Pity": 14,
+        "Won": "25%"
+      },
+      "5-Star": {
+        "Rate": "17.158%",
+        "Count": 25197
+      },
+      "Total Obtained": 2509,
+      "Featured Image": null
+    }
+  }
 }
