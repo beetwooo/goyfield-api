@@ -18,71 +18,71 @@
       "Featured Image": null
     },
     "Brigand's Calling": {
-      "Total Users": 546,
-      "Total Pulls": 26190,
+      "Total Users": 547,
+      "Total Pulls": 26240,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.109%",
-        "Count": 1338,
+        "Rate": "5.107%",
+        "Count": 1340,
         "Median Pity": 14,
         "Won": "27%"
       },
       "5-Star": {
-        "Rate": "16.781%",
-        "Count": 4395
+        "Rate": "16.780%",
+        "Count": 4403
       },
-      "Total Obtained": 438,
+      "Total Obtained": 440,
       "Featured Image": null
     },
     "Graffiti Issue": {
-      "Total Users": 922,
-      "Total Pulls": 45000,
+      "Total Users": 923,
+      "Total Pulls": 45080,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.149%",
-        "Count": 2317,
+        "Rate": "5.151%",
+        "Count": 2322,
         "Median Pity": 13,
         "Won": "20%"
       },
       "5-Star": {
-        "Rate": "17.173%",
-        "Count": 7728
+        "Rate": "17.172%",
+        "Count": 7741
       },
-      "Total Obtained": 735,
+      "Total Obtained": 736,
       "Featured Image": null
     },
     "Express Delivery Issue": {
-      "Total Users": 1732,
-      "Total Pulls": 83385,
+      "Total Users": 1733,
+      "Total Pulls": 83425,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.069%",
-        "Count": 4227,
+        "Rate": "5.068%",
+        "Count": 4228,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.081%",
-        "Count": 14243
+        "Rate": "17.079%",
+        "Count": 14248
       },
-      "Total Obtained": 1389,
+      "Total Obtained": 1390,
       "Featured Image": null
     },
     "Smelting Forge Issue": {
-      "Total Users": 2171,
-      "Total Pulls": 148160,
+      "Total Users": 2172,
+      "Total Pulls": 148180,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.228%",
-        "Count": 7746,
+        "Count": 7747,
         "Median Pity": 14,
         "Won": "25%"
       },
       "5-Star": {
-        "Rate": "17.163%",
-        "Count": 25428
+        "Rate": "17.164%",
+        "Count": 25433
       },
-      "Total Obtained": 2531,
+      "Total Obtained": 2532,
       "Featured Image": null
     }
   }
