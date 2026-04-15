@@ -1,71 +1,71 @@
 {
   "Event Weapon": {
     "Lupine Scarlet": {
-      "Total Users": 366,
-      "Total Pulls": 18900,
+      "Total Users": 367,
+      "Total Pulls": 18910,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.884%",
+        "Rate": "4.881%",
         "Count": 923,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.116%",
-        "Count": 3235
+        "Rate": "17.113%",
+        "Count": 3236
       },
       "Total Obtained": 286,
       "Featured Image": null
     },
     "Brigand's Calling": {
-      "Total Users": 550,
-      "Total Pulls": 26380,
+      "Total Users": 551,
+      "Total Pulls": 26460,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.099%",
-        "Count": 1345,
+        "Rate": "5.102%",
+        "Count": 1350,
         "Median Pity": 14,
         "Won": "27%"
       },
       "5-Star": {
-        "Rate": "16.789%",
-        "Count": 4429
+        "Rate": "16.784%",
+        "Count": 4441
       },
-      "Total Obtained": 442,
+      "Total Obtained": 443,
       "Featured Image": null
     },
     "Graffiti Issue": {
-      "Total Users": 928,
-      "Total Pulls": 45310,
+      "Total Users": 929,
+      "Total Pulls": 45330,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.151%",
-        "Count": 2334,
+        "Count": 2335,
         "Median Pity": 13,
         "Won": "20%"
       },
       "5-Star": {
-        "Rate": "17.166%",
-        "Count": 7778
+        "Rate": "17.165%",
+        "Count": 7781
       },
-      "Total Obtained": 741,
+      "Total Obtained": 742,
       "Featured Image": null
     },
     "Express Delivery Issue": {
-      "Total Users": 1739,
-      "Total Pulls": 83805,
+      "Total Users": 1740,
+      "Total Pulls": 83885,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.069%",
-        "Count": 4248,
+        "Rate": "5.072%",
+        "Count": 4255,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.083%",
-        "Count": 14316
+        "Rate": "17.084%",
+        "Count": 14331
       },
-      "Total Obtained": 1396,
+      "Total Obtained": 1397,
       "Featured Image": null
     },
     "Smelting Forge Issue": {
