@@ -1,20 +1,20 @@
 {
   "Event Weapon": {
     "Lupine Scarlet": {
-      "Total Users": 377,
-      "Total Pulls": 20080,
+      "Total Users": 378,
+      "Total Pulls": 20160,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.885%",
-        "Count": 981,
+        "Rate": "4.881%",
+        "Count": 984,
         "Median Pity": 14,
         "Won": "25%"
       },
       "5-Star": {
-        "Rate": "17.122%",
-        "Count": 3438
+        "Rate": "17.113%",
+        "Count": 3450
       },
-      "Total Obtained": 303,
+      "Total Obtained": 304,
       "Featured Image": null
     },
     "Brigand's Calling": {
@@ -69,20 +69,20 @@
       "Featured Image": null
     },
     "Smelting Forge Issue": {
-      "Total Users": 2190,
-      "Total Pulls": 149130,
+      "Total Users": 2191,
+      "Total Pulls": 149230,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.230%",
-        "Count": 7800,
+        "Count": 7805,
         "Median Pity": 14,
         "Won": "25%"
       },
       "5-Star": {
-        "Rate": "17.164%",
-        "Count": 25596
+        "Rate": "17.165%",
+        "Count": 25616
       },
-      "Total Obtained": 2550,
+      "Total Obtained": 2551,
       "Featured Image": null
     }
   }
