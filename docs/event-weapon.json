@@ -1,18 +1,18 @@
 {
   "Event Weapon": {
     "Lupine Scarlet": {
-      "Total Users": 384,
-      "Total Pulls": 20470,
+      "Total Users": 385,
+      "Total Pulls": 20500,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.890%",
-        "Count": 1001,
+        "Rate": "4.893%",
+        "Count": 1003,
         "Median Pity": 14,
         "Won": "25%"
       },
       "5-Star": {
-        "Rate": "17.123%",
-        "Count": 3505
+        "Rate": "17.102%",
+        "Count": 3506
       },
       "Total Obtained": 307,
       "Featured Image": null
@@ -70,17 +70,17 @@
     },
     "Smelting Forge Issue": {
       "Total Users": 2195,
-      "Total Pulls": 149690,
+      "Total Pulls": 149730,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.231%",
-        "Count": 7830,
+        "Rate": "5.230%",
+        "Count": 7831,
         "Median Pity": 14,
         "Won": "25%"
       },
       "5-Star": {
         "Rate": "17.167%",
-        "Count": 25698
+        "Count": 25704
       },
       "Total Obtained": 2563,
       "Featured Image": null
