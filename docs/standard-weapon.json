@@ -2,19 +2,19 @@
   "Standard Weapon": {
     "Solid Ice Issue": {
       "Total Users": 938,
-      "Total Pulls": 38400,
+      "Total Pulls": 38420,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.036%",
-        "Count": 1934,
+        "Rate": "5.039%",
+        "Count": 1936,
         "Median Pity": 13,
-        "Won": "26%"
+        "Won": "27%"
       },
       "5-Star": {
-        "Rate": "16.974%",
-        "Count": 6518
+        "Rate": "16.973%",
+        "Count": 6521
       },
-      "Total Obtained": 640,
+      "Total Obtained": 641,
       "Featured Image": null
     },
     "Cosmic Voice Issue": {
