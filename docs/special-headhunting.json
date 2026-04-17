@@ -1,105 +1,105 @@
 {
   "Special Headhunting": {
     "banners.special_1_2_1": {
-      "Total Users": 28,
-      "Total Pulls": 2176,
-      "Oroberyl Spent": 1088000,
+      "Total Users": 57,
+      "Total Pulls": 4587,
+      "Oroberyl Spent": 2293500,
       "6-Star": {
-        "Rate": "2.022%",
-        "Count": 44,
-        "Median Pity": 19,
-        "Won": "55%"
-      },
-      "5-Star": {
-        "Rate": "11.489%",
-        "Count": 250
-      },
-      "Total Obtained": 27,
-      "Featured Image": "https://goyfield.moe/images/operators/preview/zhuangfy.png"
-    },
-    "Wolf Pearl": {
-      "Total Users": 650,
-      "Total Pulls": 52539,
-      "Oroberyl Spent": 26269500,
-      "6-Star": {
-        "Rate": "2.016%",
-        "Count": 1059,
-        "Median Pity": 25,
+        "Rate": "2.136%",
+        "Count": 98,
+        "Median Pity": 31,
         "Won": "53%"
       },
       "5-Star": {
-        "Rate": "12.001%",
-        "Count": 6305
+        "Rate": "11.707%",
+        "Count": 537
       },
-      "Total Obtained": 629,
+      "Total Obtained": 52,
+      "Featured Image": "https://goyfield.moe/images/operators/preview/zhuangfy.png"
+    },
+    "Wolf Pearl": {
+      "Total Users": 668,
+      "Total Pulls": 53674,
+      "Oroberyl Spent": 26837000,
+      "6-Star": {
+        "Rate": "1.999%",
+        "Count": 1073,
+        "Median Pity": 26,
+        "Won": "53%"
+      },
+      "5-Star": {
+        "Rate": "11.982%",
+        "Count": 6431
+      },
+      "Total Obtained": 635,
       "Featured Image": "https://goyfield.moe/images/operators/preview/rossi.png"
     },
     "River's Daughter": {
-      "Total Users": 950,
-      "Total Pulls": 72602,
-      "Oroberyl Spent": 36301000,
+      "Total Users": 964,
+      "Total Pulls": 73850,
+      "Oroberyl Spent": 36925000,
       "6-Star": {
-        "Rate": "1.902%",
-        "Count": 1381,
+        "Rate": "1.903%",
+        "Count": 1405,
         "Median Pity": 31,
         "Won": "51%"
       },
       "5-Star": {
-        "Rate": "11.867%",
-        "Count": 8616
+        "Rate": "11.885%",
+        "Count": 8777
       },
-      "Total Obtained": 795,
+      "Total Obtained": 808,
       "Featured Image": "https://goyfield.moe/images/operators/preview/tangtang.png"
     },
     "Hues Of Passion": {
-      "Total Users": 1706,
-      "Total Pulls": 113929,
-      "Oroberyl Spent": 56964500,
+      "Total Users": 1720,
+      "Total Pulls": 115261,
+      "Oroberyl Spent": 57630500,
       "6-Star": {
-        "Rate": "1.721%",
-        "Count": 1961,
+        "Rate": "1.720%",
+        "Count": 1982,
         "Median Pity": 26,
         "Won": "50%"
       },
       "5-Star": {
         "Rate": "11.850%",
-        "Count": 13501
+        "Count": 13659
       },
-      "Total Obtained": 1129,
+      "Total Obtained": 1138,
       "Featured Image": "https://goyfield.moe/images/operators/preview/yvonne.png"
     },
     "The Floaty Messenger": {
-      "Total Users": 2706,
-      "Total Pulls": 226171,
-      "Oroberyl Spent": 113085500,
+      "Total Users": 2719,
+      "Total Pulls": 227337,
+      "Oroberyl Spent": 113668500,
       "6-Star": {
-        "Rate": "1.838%",
-        "Count": 4157,
+        "Rate": "1.839%",
+        "Count": 4180,
         "Median Pity": 32,
         "Won": "50%"
       },
       "5-Star": {
-        "Rate": "12.160%",
-        "Count": 27502
+        "Rate": "12.164%",
+        "Count": 27654
       },
-      "Total Obtained": 2393,
+      "Total Obtained": 2399,
       "Featured Image": "https://goyfield.moe/images/operators/preview/gilberta.png"
     },
     "Scars Of The Forge": {
-      "Total Users": 2647,
-      "Total Pulls": 275704,
-      "Oroberyl Spent": 137852000,
+      "Total Users": 2660,
+      "Total Pulls": 277086,
+      "Oroberyl Spent": 138543000,
       "6-Star": {
         "Rate": "1.711%",
-        "Count": 4718,
+        "Count": 4741,
         "Median Pity": 46,
         "Won": "52%"
       },
       "5-Star": {
-        "Rate": "12.356%",
-        "Count": 34066
+        "Rate": "12.350%",
+        "Count": 34221
       },
-      "Total Obtained": 2812,
+      "Total Obtained": 2825,
       "Featured Image": "https://goyfield.moe/images/operators/preview/laevatain.png"
     }
   }
