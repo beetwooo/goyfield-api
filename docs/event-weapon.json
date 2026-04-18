@@ -1,37 +1,37 @@
 {
   "Event Weapon": {
     "Drifting Raft Issue": {
-      "Total Users": 252,
-      "Total Pulls": 13370,
+      "Total Users": 255,
+      "Total Pulls": 13560,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.251%",
-        "Count": 702,
+        "Count": 712,
         "Median Pity": 14,
-        "Won": "25%"
+        "Won": "24%"
       },
       "5-Star": {
-        "Rate": "17.016%",
-        "Count": 2275
+        "Rate": "17.006%",
+        "Count": 2306
       },
-      "Total Obtained": 205,
+      "Total Obtained": 207,
       "Featured Image": null
     },
     "Lupine Scarlet": {
-      "Total Users": 523,
-      "Total Pulls": 28430,
+      "Total Users": 524,
+      "Total Pulls": 28510,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.917%",
-        "Count": 1398,
+        "Rate": "4.914%",
+        "Count": 1401,
         "Median Pity": 15,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "16.961%",
-        "Count": 4822
+        "Rate": "16.959%",
+        "Count": 4835
       },
-      "Total Obtained": 431,
+      "Total Obtained": 432,
       "Featured Image": null
     },
     "Brigand's Calling": {

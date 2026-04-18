@@ -1,43 +1,43 @@
 {
   "Special Headhunting": {
     "banners.special_1_2_1": {
-      "Total Users": 330,
-      "Total Pulls": 29485,
-      "Oroberyl Spent": 14742500,
+      "Total Users": 334,
+      "Total Pulls": 29767,
+      "Oroberyl Spent": 14883500,
       "6-Star": {
-        "Rate": "2.021%",
-        "Count": 596,
+        "Rate": "2.022%",
+        "Count": 602,
         "Median Pity": 34,
         "Won": "51%"
       },
       "5-Star": {
-        "Rate": "11.982%",
-        "Count": 3533
+        "Rate": "11.983%",
+        "Count": 3567
       },
-      "Total Obtained": 323,
+      "Total Obtained": 326,
       "Featured Image": "https://goyfield.moe/images/operators/preview/zhuangfy.png"
     },
     "Wolf Pearl": {
-      "Total Users": 858,
-      "Total Pulls": 67261,
-      "Oroberyl Spent": 33630500,
+      "Total Users": 860,
+      "Total Pulls": 67414,
+      "Oroberyl Spent": 33707000,
       "6-Star": {
-        "Rate": "1.936%",
-        "Count": 1302,
+        "Rate": "1.934%",
+        "Count": 1304,
         "Median Pity": 28,
         "Won": "53%"
       },
       "5-Star": {
-        "Rate": "11.967%",
-        "Count": 8049
+        "Rate": "11.962%",
+        "Count": 8064
       },
-      "Total Obtained": 766,
+      "Total Obtained": 768,
       "Featured Image": "https://goyfield.moe/images/operators/preview/rossi.png"
     },
     "River's Daughter": {
-      "Total Users": 1127,
-      "Total Pulls": 84948,
-      "Oroberyl Spent": 42474000,
+      "Total Users": 1128,
+      "Total Pulls": 84958,
+      "Oroberyl Spent": 42479000,
       "6-Star": {
         "Rate": "1.895%",
         "Count": 1610,
@@ -45,8 +45,8 @@
         "Won": "51%"
       },
       "5-Star": {
-        "Rate": "11.918%",
-        "Count": 10124
+        "Rate": "11.919%",
+        "Count": 10126
       },
       "Total Obtained": 918,
       "Featured Image": "https://goyfield.moe/images/operators/preview/tangtang.png"
