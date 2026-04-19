@@ -1,54 +1,54 @@
 {
   "Standard Weapon": {
     "Solid Ice Issue": {
-      "Total Users": 1028,
-      "Total Pulls": 42550,
+      "Total Users": 1030,
+      "Total Pulls": 42630,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.018%",
-        "Count": 2135,
+        "Rate": "5.015%",
+        "Count": 2138,
         "Median Pity": 13,
-        "Won": "26%"
+        "Won": "27%"
       },
       "5-Star": {
-        "Rate": "16.933%",
-        "Count": 7205
+        "Rate": "16.946%",
+        "Count": 7224
       },
-      "Total Obtained": 696,
+      "Total Obtained": 698,
       "Featured Image": null
     },
     "Cosmic Voice Issue": {
-      "Total Users": 2804,
-      "Total Pulls": 35890,
+      "Total Users": 2817,
+      "Total Pulls": 36040,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.232%",
-        "Count": 1519,
+        "Rate": "4.234%",
+        "Count": 1526,
         "Median Pity": 6,
         "Won": "25%"
       },
       "5-Star": {
-        "Rate": "16.615%",
-        "Count": 5963
+        "Rate": "16.618%",
+        "Count": 5989
       },
-      "Total Obtained": 394,
+      "Total Obtained": 396,
       "Featured Image": null
     },
     "Far Expedition Issue": {
-      "Total Users": 909,
-      "Total Pulls": 38215,
+      "Total Users": 912,
+      "Total Pulls": 38315,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.969%",
-        "Count": 1899,
+        "Rate": "4.972%",
+        "Count": 1905,
         "Median Pity": 12,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "16.755%",
-        "Count": 6403
+        "Rate": "16.756%",
+        "Count": 6420
       },
-      "Total Obtained": 601,
+      "Total Obtained": 602,
       "Featured Image": null
     },
     "Rising Mount Issue": {
@@ -69,18 +69,18 @@
       "Featured Image": null
     },
     "Thunderous Peal Issue": {
-      "Total Users": 251,
-      "Total Pulls": 9190,
+      "Total Users": 252,
+      "Total Pulls": 9220,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.527%",
-        "Count": 416,
+        "Rate": "4.534%",
+        "Count": 418,
         "Median Pity": 12,
         "Won": "24%"
       },
       "5-Star": {
         "Rate": "16.616%",
-        "Count": 1527
+        "Count": 1532
       },
       "Total Obtained": 123,
       "Featured Image": null
