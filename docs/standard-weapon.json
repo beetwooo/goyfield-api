@@ -1,86 +1,86 @@
 {
   "Standard Weapon": {
     "Solid Ice Issue": {
-      "Total Users": 1054,
-      "Total Pulls": 43630,
+      "Total Users": 1055,
+      "Total Pulls": 43650,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.999%",
-        "Count": 2181,
+        "Rate": "5.001%",
+        "Count": 2183,
         "Median Pity": 13,
         "Won": "27%"
       },
       "5-Star": {
         "Rate": "16.910%",
-        "Count": 7378
+        "Count": 7381
       },
-      "Total Obtained": 714,
+      "Total Obtained": 715,
       "Featured Image": null
     },
     "Cosmic Voice Issue": {
-      "Total Users": 2892,
-      "Total Pulls": 36980,
+      "Total Users": 2894,
+      "Total Pulls": 37020,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.224%",
+        "Rate": "4.219%",
         "Count": 1562,
         "Median Pity": 6,
         "Won": "25%"
       },
       "5-Star": {
-        "Rate": "16.582%",
-        "Count": 6132
+        "Rate": "16.575%",
+        "Count": 6136
       },
       "Total Obtained": 406,
       "Featured Image": null
     },
     "Far Expedition Issue": {
-      "Total Users": 934,
-      "Total Pulls": 39435,
+      "Total Users": 935,
+      "Total Pulls": 39455,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "4.990%",
-        "Count": 1968,
-        "Median Pity": 12,
+        "Count": 1969,
+        "Median Pity": 13,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "16.792%",
-        "Count": 6622
+        "Rate": "16.789%",
+        "Count": 6624
       },
-      "Total Obtained": 619,
+      "Total Obtained": 620,
       "Featured Image": null
     },
     "Rising Mount Issue": {
-      "Total Users": 364,
-      "Total Pulls": 13255,
+      "Total Users": 365,
+      "Total Pulls": 13265,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.009%",
-        "Count": 664,
+        "Rate": "5.013%",
+        "Count": 665,
         "Median Pity": 12,
         "Won": "23%"
       },
       "5-Star": {
-        "Rate": "16.598%",
-        "Count": 2200
+        "Rate": "16.600%",
+        "Count": 2202
       },
       "Total Obtained": 186,
       "Featured Image": null
     },
     "Thunderous Peal Issue": {
-      "Total Users": 257,
-      "Total Pulls": 9410,
+      "Total Users": 258,
+      "Total Pulls": 9420,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.516%",
+        "Rate": "4.512%",
         "Count": 425,
         "Median Pity": 12,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "16.631%",
-        "Count": 1565
+        "Rate": "16.624%",
+        "Count": 1566
       },
       "Total Obtained": 126,
       "Featured Image": null
