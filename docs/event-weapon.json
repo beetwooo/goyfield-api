@@ -1,20 +1,20 @@
 {
   "Event Weapon": {
     "Drifting Raft Issue": {
-      "Total Users": 490,
-      "Total Pulls": 28550,
+      "Total Users": 491,
+      "Total Pulls": 28620,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.082%",
-        "Count": 1451,
+        "Rate": "5.080%",
+        "Count": 1454,
         "Median Pity": 15,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "17.229%",
-        "Count": 4919
+        "Rate": "17.226%",
+        "Count": 4930
       },
-      "Total Obtained": 419,
+      "Total Obtained": 420,
       "Featured Image": null
     },
     "Lupine Scarlet": {

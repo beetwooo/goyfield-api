@@ -1,35 +1,35 @@
 {
   "Special Headhunting": {
     "banners.special_1_2_1": {
-      "Total Users": 620,
-      "Total Pulls": 60328,
-      "Oroberyl Spent": 30164000,
+      "Total Users": 622,
+      "Total Pulls": 60539,
+      "Oroberyl Spent": 30269500,
       "6-Star": {
-        "Rate": "1.997%",
-        "Count": 1205,
+        "Rate": "1.995%",
+        "Count": 1208,
         "Median Pity": 34,
-        "Won": "53%"
+        "Won": "52%"
       },
       "5-Star": {
-        "Rate": "11.978%",
-        "Count": 7226
+        "Rate": "11.977%",
+        "Count": 7251
       },
-      "Total Obtained": 690,
+      "Total Obtained": 691,
       "Featured Image": "https://goyfield.moe/images/operators/preview/zhuangfy.png"
     },
     "Wolf Pearl": {
-      "Total Users": 1068,
-      "Total Pulls": 81720,
-      "Oroberyl Spent": 40860000,
+      "Total Users": 1069,
+      "Total Pulls": 81760,
+      "Oroberyl Spent": 40880000,
       "6-Star": {
-        "Rate": "1.893%",
+        "Rate": "1.892%",
         "Count": 1547,
         "Median Pity": 29,
         "Won": "52%"
       },
       "5-Star": {
-        "Rate": "11.979%",
-        "Count": 9789
+        "Rate": "11.978%",
+        "Count": 9793
       },
       "Total Obtained": 902,
       "Featured Image": "https://goyfield.moe/images/operators/preview/rossi.png"
