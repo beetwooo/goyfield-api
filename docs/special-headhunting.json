@@ -1,105 +1,105 @@
 {
   "Special Headhunting": {
     "banners.special_1_2_1": {
-      "Total Users": 524,
-      "Total Pulls": 48232,
-      "Oroberyl Spent": 24116000,
+      "Total Users": 529,
+      "Total Pulls": 48624,
+      "Oroberyl Spent": 24312000,
       "6-Star": {
-        "Rate": "2.017%",
-        "Count": 973,
+        "Rate": "2.009%",
+        "Count": 977,
         "Median Pity": 33,
         "Won": "52%"
       },
       "5-Star": {
-        "Rate": "11.961%",
-        "Count": 5769
+        "Rate": "11.947%",
+        "Count": 5809
       },
-      "Total Obtained": 544,
+      "Total Obtained": 550,
       "Featured Image": "https://goyfield.moe/images/operators/preview/zhuangfy.png"
     },
     "Wolf Pearl": {
-      "Total Users": 990,
-      "Total Pulls": 75719,
-      "Oroberyl Spent": 37859500,
+      "Total Users": 993,
+      "Total Pulls": 75988,
+      "Oroberyl Spent": 37994000,
       "6-Star": {
-        "Rate": "1.914%",
-        "Count": 1449,
-        "Median Pity": 28,
+        "Rate": "1.915%",
+        "Count": 1455,
+        "Median Pity": 29,
         "Won": "52%"
       },
       "5-Star": {
-        "Rate": "11.977%",
-        "Count": 9069
+        "Rate": "11.980%",
+        "Count": 9103
       },
-      "Total Obtained": 844,
+      "Total Obtained": 846,
       "Featured Image": "https://goyfield.moe/images/operators/preview/rossi.png"
     },
     "River's Daughter": {
-      "Total Users": 1242,
-      "Total Pulls": 93074,
-      "Oroberyl Spent": 46537000,
+      "Total Users": 1245,
+      "Total Pulls": 93204,
+      "Oroberyl Spent": 46602000,
       "6-Star": {
         "Rate": "1.890%",
-        "Count": 1759,
+        "Count": 1762,
         "Median Pity": 31,
         "Won": "50%"
       },
       "5-Star": {
-        "Rate": "11.935%",
-        "Count": 11108
+        "Rate": "11.931%",
+        "Count": 11120
       },
-      "Total Obtained": 999,
+      "Total Obtained": 1002,
       "Featured Image": "https://goyfield.moe/images/operators/preview/tangtang.png"
     },
     "Hues Of Passion": {
-      "Total Users": 1989,
-      "Total Pulls": 132569,
-      "Oroberyl Spent": 66284500,
+      "Total Users": 1992,
+      "Total Pulls": 132675,
+      "Oroberyl Spent": 66337500,
       "6-Star": {
         "Rate": "1.703%",
-        "Count": 2258,
+        "Count": 2259,
         "Median Pity": 28,
         "Won": "51%"
       },
       "5-Star": {
-        "Rate": "11.864%",
-        "Count": 15728
+        "Rate": "11.865%",
+        "Count": 15742
       },
-      "Total Obtained": 1295,
+      "Total Obtained": 1296,
       "Featured Image": "https://goyfield.moe/images/operators/preview/yvonne.png"
     },
     "The Floaty Messenger": {
-      "Total Users": 2987,
-      "Total Pulls": 247484,
-      "Oroberyl Spent": 123742000,
+      "Total Users": 2990,
+      "Total Pulls": 247748,
+      "Oroberyl Spent": 123874000,
       "6-Star": {
-        "Rate": "1.824%",
-        "Count": 4515,
+        "Rate": "1.825%",
+        "Count": 4521,
         "Median Pity": 32,
         "Won": "50%"
       },
       "5-Star": {
-        "Rate": "12.138%",
-        "Count": 30040
+        "Rate": "12.136%",
+        "Count": 30067
       },
-      "Total Obtained": 2591,
+      "Total Obtained": 2597,
       "Featured Image": "https://goyfield.moe/images/operators/preview/gilberta.png"
     },
     "Scars Of The Forge": {
-      "Total Users": 2930,
-      "Total Pulls": 303673,
-      "Oroberyl Spent": 151836500,
+      "Total Users": 2933,
+      "Total Pulls": 303993,
+      "Oroberyl Spent": 151996500,
       "6-Star": {
-        "Rate": "1.716%",
-        "Count": 5210,
-        "Median Pity": 46,
+        "Rate": "1.715%",
+        "Count": 5213,
+        "Median Pity": 47,
         "Won": "52%"
       },
       "5-Star": {
-        "Rate": "12.352%",
-        "Count": 37511
+        "Rate": "12.351%",
+        "Count": 37547
       },
-      "Total Obtained": 3103,
+      "Total Obtained": 3105,
       "Featured Image": "https://goyfield.moe/images/operators/preview/laevatain.png"
     }
   }
