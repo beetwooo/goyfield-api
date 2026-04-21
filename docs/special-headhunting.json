@@ -1,105 +1,105 @@
 {
   "Special Headhunting": {
     "banners.special_1_2_1": {
-      "Total Users": 679,
-      "Total Pulls": 67624,
-      "Oroberyl Spent": 33812000,
+      "Total Users": 685,
+      "Total Pulls": 68467,
+      "Oroberyl Spent": 34233500,
       "6-Star": {
-        "Rate": "1.977%",
-        "Count": 1337,
-        "Median Pity": 35,
+        "Rate": "1.972%",
+        "Count": 1350,
+        "Median Pity": 36,
         "Won": "52%"
       },
       "5-Star": {
-        "Rate": "12.013%",
-        "Count": 8124
+        "Rate": "12.022%",
+        "Count": 8231
       },
-      "Total Obtained": 765,
+      "Total Obtained": 774,
       "Featured Image": "https://goyfield.moe/images/operators/preview/zhuangfy.png"
     },
     "Wolf Pearl": {
-      "Total Users": 1115,
-      "Total Pulls": 85002,
-      "Oroberyl Spent": 42501000,
+      "Total Users": 1119,
+      "Total Pulls": 85381,
+      "Oroberyl Spent": 42690500,
       "6-Star": {
-        "Rate": "1.885%",
-        "Count": 1602,
+        "Rate": "1.886%",
+        "Count": 1610,
         "Median Pity": 29,
         "Won": "52%"
       },
       "5-Star": {
-        "Rate": "11.989%",
-        "Count": 10191
+        "Rate": "11.986%",
+        "Count": 10234
       },
-      "Total Obtained": 938,
+      "Total Obtained": 941,
       "Featured Image": "https://goyfield.moe/images/operators/preview/rossi.png"
     },
     "River's Daughter": {
-      "Total Users": 1355,
-      "Total Pulls": 102647,
-      "Oroberyl Spent": 51323500,
+      "Total Users": 1358,
+      "Total Pulls": 102815,
+      "Oroberyl Spent": 51407500,
       "6-Star": {
-        "Rate": "1.888%",
-        "Count": 1938,
+        "Rate": "1.886%",
+        "Count": 1939,
         "Median Pity": 31,
         "Won": "50%"
       },
       "5-Star": {
-        "Rate": "11.963%",
-        "Count": 12280
+        "Rate": "11.964%",
+        "Count": 12301
       },
-      "Total Obtained": 1107,
+      "Total Obtained": 1108,
       "Featured Image": "https://goyfield.moe/images/operators/preview/tangtang.png"
     },
     "Hues Of Passion": {
-      "Total Users": 2096,
-      "Total Pulls": 141218,
-      "Oroberyl Spent": 70609000,
+      "Total Users": 2100,
+      "Total Pulls": 141456,
+      "Oroberyl Spent": 70728000,
       "6-Star": {
         "Rate": "1.692%",
-        "Count": 2390,
+        "Count": 2394,
         "Median Pity": 28,
         "Won": "51%"
       },
       "5-Star": {
-        "Rate": "11.893%",
-        "Count": 16795
+        "Rate": "11.896%",
+        "Count": 16828
       },
-      "Total Obtained": 1375,
+      "Total Obtained": 1378,
       "Featured Image": "https://goyfield.moe/images/operators/preview/yvonne.png"
     },
     "The Floaty Messenger": {
-      "Total Users": 3091,
-      "Total Pulls": 256564,
-      "Oroberyl Spent": 128282000,
+      "Total Users": 3095,
+      "Total Pulls": 256833,
+      "Oroberyl Spent": 128416500,
       "6-Star": {
         "Rate": "1.820%",
-        "Count": 4669,
+        "Count": 4675,
         "Median Pity": 32,
         "Won": "50%"
       },
       "5-Star": {
-        "Rate": "12.128%",
-        "Count": 31116
+        "Rate": "12.126%",
+        "Count": 31144
       },
-      "Total Obtained": 2688,
+      "Total Obtained": 2693,
       "Featured Image": "https://goyfield.moe/images/operators/preview/gilberta.png"
     },
     "Scars Of The Forge": {
-      "Total Users": 3036,
-      "Total Pulls": 315343,
-      "Oroberyl Spent": 157671500,
+      "Total Users": 3040,
+      "Total Pulls": 315714,
+      "Oroberyl Spent": 157857000,
       "6-Star": {
-        "Rate": "1.715%",
-        "Count": 5409,
+        "Rate": "1.716%",
+        "Count": 5418,
         "Median Pity": 47,
         "Won": "52%"
       },
       "5-Star": {
-        "Rate": "12.348%",
-        "Count": 38937
+        "Rate": "12.346%",
+        "Count": 38978
       },
-      "Total Obtained": 3220,
+      "Total Obtained": 3225,
       "Featured Image": "https://goyfield.moe/images/operators/preview/laevatain.png"
     }
   }
