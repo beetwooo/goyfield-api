@@ -1,105 +1,105 @@
 {
   "Special Headhunting": {
     "banners.special_1_2_1": {
-      "Total Users": 624,
-      "Total Pulls": 60803,
-      "Oroberyl Spent": 30401500,
+      "Total Users": 631,
+      "Total Pulls": 61641,
+      "Oroberyl Spent": 30820500,
       "6-Star": {
-        "Rate": "1.993%",
-        "Count": 1212,
-        "Median Pity": 35,
-        "Won": "52%"
+        "Rate": "1.995%",
+        "Count": 1230,
+        "Median Pity": 34,
+        "Won": "53%"
       },
       "5-Star": {
-        "Rate": "11.983%",
-        "Count": 7286
+        "Rate": "11.973%",
+        "Count": 7380
       },
-      "Total Obtained": 694,
+      "Total Obtained": 705,
       "Featured Image": "https://goyfield.moe/images/operators/preview/zhuangfy.png"
     },
     "Wolf Pearl": {
-      "Total Users": 1071,
-      "Total Pulls": 81841,
-      "Oroberyl Spent": 40920500,
+      "Total Users": 1076,
+      "Total Pulls": 82180,
+      "Oroberyl Spent": 41090000,
       "6-Star": {
-        "Rate": "1.891%",
-        "Count": 1548,
+        "Rate": "1.890%",
+        "Count": 1553,
         "Median Pity": 29,
         "Won": "52%"
       },
       "5-Star": {
-        "Rate": "11.977%",
-        "Count": 9802
+        "Rate": "11.974%",
+        "Count": 9840
       },
-      "Total Obtained": 903,
+      "Total Obtained": 905,
       "Featured Image": "https://goyfield.moe/images/operators/preview/rossi.png"
     },
     "River's Daughter": {
-      "Total Users": 1314,
-      "Total Pulls": 99193,
-      "Oroberyl Spent": 49596500,
+      "Total Users": 1319,
+      "Total Pulls": 99658,
+      "Oroberyl Spent": 49829000,
       "6-Star": {
         "Rate": "1.892%",
-        "Count": 1877,
+        "Count": 1886,
         "Median Pity": 31,
         "Won": "50%"
       },
       "5-Star": {
         "Rate": "11.977%",
-        "Count": 11880
+        "Count": 11936
       },
-      "Total Obtained": 1070,
+      "Total Obtained": 1076,
       "Featured Image": "https://goyfield.moe/images/operators/preview/tangtang.png"
     },
     "Hues Of Passion": {
-      "Total Users": 2059,
-      "Total Pulls": 138078,
-      "Oroberyl Spent": 69039000,
+      "Total Users": 2063,
+      "Total Pulls": 138579,
+      "Oroberyl Spent": 69289500,
       "6-Star": {
-        "Rate": "1.692%",
-        "Count": 2336,
+        "Rate": "1.694%",
+        "Count": 2348,
         "Median Pity": 28,
         "Won": "51%"
       },
       "5-Star": {
-        "Rate": "11.886%",
-        "Count": 16412
+        "Rate": "11.887%",
+        "Count": 16473
       },
-      "Total Obtained": 1351,
+      "Total Obtained": 1357,
       "Featured Image": "https://goyfield.moe/images/operators/preview/yvonne.png"
     },
     "The Floaty Messenger": {
-      "Total Users": 3055,
-      "Total Pulls": 253597,
-      "Oroberyl Spent": 126798500,
+      "Total Users": 3060,
+      "Total Pulls": 253848,
+      "Oroberyl Spent": 126924000,
       "6-Star": {
-        "Rate": "1.821%",
-        "Count": 4619,
+        "Rate": "1.820%",
+        "Count": 4621,
         "Median Pity": 32,
         "Won": "50%"
       },
       "5-Star": {
-        "Rate": "12.130%",
-        "Count": 30762
+        "Rate": "12.129%",
+        "Count": 30789
       },
-      "Total Obtained": 2655,
+      "Total Obtained": 2657,
       "Featured Image": "https://goyfield.moe/images/operators/preview/gilberta.png"
     },
     "Scars Of The Forge": {
-      "Total Users": 3000,
-      "Total Pulls": 311686,
-      "Oroberyl Spent": 155843000,
+      "Total Users": 3005,
+      "Total Pulls": 312244,
+      "Oroberyl Spent": 156122000,
       "6-Star": {
         "Rate": "1.716%",
-        "Count": 5348,
+        "Count": 5358,
         "Median Pity": 47,
         "Won": "52%"
       },
       "5-Star": {
-        "Rate": "12.348%",
-        "Count": 38486
+        "Rate": "12.346%",
+        "Count": 38551
       },
-      "Total Obtained": 3182,
+      "Total Obtained": 3187,
       "Featured Image": "https://goyfield.moe/images/operators/preview/laevatain.png"
     }
   }

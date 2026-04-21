@@ -1,37 +1,37 @@
 {
   "Standard Weapon": {
     "Solid Ice Issue": {
-      "Total Users": 1083,
-      "Total Pulls": 44810,
+      "Total Users": 1087,
+      "Total Pulls": 45010,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.021%",
-        "Count": 2250,
+        "Rate": "5.014%",
+        "Count": 2257,
         "Median Pity": 13,
         "Won": "27%"
       },
       "5-Star": {
-        "Rate": "16.947%",
-        "Count": 7594
+        "Rate": "16.936%",
+        "Count": 7623
       },
-      "Total Obtained": 740,
+      "Total Obtained": 743,
       "Featured Image": null
     },
     "Cosmic Voice Issue": {
-      "Total Users": 2965,
-      "Total Pulls": 38050,
+      "Total Users": 2971,
+      "Total Pulls": 38110,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.229%",
-        "Count": 1609,
+        "Rate": "4.230%",
+        "Count": 1612,
         "Median Pity": 6,
         "Won": "25%"
       },
       "5-Star": {
         "Rate": "16.528%",
-        "Count": 6289
+        "Count": 6299
       },
-      "Total Obtained": 420,
+      "Total Obtained": 422,
       "Featured Image": null
     },
     "Far Expedition Issue": {
@@ -69,18 +69,18 @@
       "Featured Image": null
     },
     "Thunderous Peal Issue": {
-      "Total Users": 268,
-      "Total Pulls": 9770,
+      "Total Users": 269,
+      "Total Pulls": 9790,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.575%",
+        "Rate": "4.566%",
         "Count": 447,
         "Median Pity": 12,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "16.622%",
-        "Count": 1624
+        "Rate": "16.609%",
+        "Count": 1626
       },
       "Total Obtained": 132,
       "Featured Image": null
