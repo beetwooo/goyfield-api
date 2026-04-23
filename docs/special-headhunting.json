@@ -1,105 +1,105 @@
 {
   "Special Headhunting": {
     "Thunder of Renewal": {
-      "Total Users": 780,
-      "Total Pulls": 78400,
-      "Oroberyl Spent": 39200000,
+      "Total Users": 787,
+      "Total Pulls": 79150,
+      "Oroberyl Spent": 39575000,
       "6-Star": {
-        "Rate": "1.958%",
-        "Count": 1535,
-        "Median Pity": 35,
+        "Rate": "1.951%",
+        "Count": 1544,
+        "Median Pity": 36,
         "Won": "52%"
       },
       "5-Star": {
-        "Rate": "12.033%",
-        "Count": 9434
+        "Rate": "12.038%",
+        "Count": 9528
       },
-      "Total Obtained": 882,
+      "Total Obtained": 888,
       "Featured Image": "https://goyfield.moe/images/operators/preview/zhuangfy.png"
     },
     "Wolf Pearl": {
-      "Total Users": 1186,
-      "Total Pulls": 90536,
-      "Oroberyl Spent": 45268000,
+      "Total Users": 1192,
+      "Total Pulls": 90990,
+      "Oroberyl Spent": 45495000,
       "6-Star": {
-        "Rate": "1.878%",
-        "Count": 1700,
+        "Rate": "1.879%",
+        "Count": 1710,
         "Median Pity": 30,
         "Won": "52%"
       },
       "5-Star": {
-        "Rate": "11.975%",
-        "Count": 10842
+        "Rate": "11.977%",
+        "Count": 10898
       },
-      "Total Obtained": 995,
+      "Total Obtained": 1002,
       "Featured Image": "https://goyfield.moe/images/operators/preview/rossi.png"
     },
     "River's Daughter": {
-      "Total Users": 1422,
-      "Total Pulls": 107202,
-      "Oroberyl Spent": 53601000,
+      "Total Users": 1428,
+      "Total Pulls": 107588,
+      "Oroberyl Spent": 53794000,
       "6-Star": {
-        "Rate": "1.884%",
-        "Count": 2020,
+        "Rate": "1.882%",
+        "Count": 2025,
         "Median Pity": 31,
         "Won": "51%"
       },
       "5-Star": {
-        "Rate": "11.955%",
-        "Count": 12816
+        "Rate": "11.954%",
+        "Count": 12861
       },
-      "Total Obtained": 1158,
+      "Total Obtained": 1162,
       "Featured Image": "https://goyfield.moe/images/operators/preview/tangtang.png"
     },
     "Hues Of Passion": {
-      "Total Users": 2162,
-      "Total Pulls": 145373,
-      "Oroberyl Spent": 72686500,
+      "Total Users": 2168,
+      "Total Pulls": 145961,
+      "Oroberyl Spent": 72980500,
       "6-Star": {
         "Rate": "1.689%",
-        "Count": 2456,
+        "Count": 2466,
         "Median Pity": 28,
         "Won": "51%"
       },
       "5-Star": {
-        "Rate": "11.898%",
-        "Count": 17296
+        "Rate": "11.896%",
+        "Count": 17364
       },
-      "Total Obtained": 1414,
+      "Total Obtained": 1420,
       "Featured Image": "https://goyfield.moe/images/operators/preview/yvonne.png"
     },
     "The Floaty Messenger": {
-      "Total Users": 3155,
-      "Total Pulls": 261835,
-      "Oroberyl Spent": 130917500,
+      "Total Users": 3162,
+      "Total Pulls": 262415,
+      "Oroberyl Spent": 131207500,
       "6-Star": {
-        "Rate": "1.818%",
-        "Count": 4761,
+        "Rate": "1.817%",
+        "Count": 4768,
         "Median Pity": 32,
         "Won": "50%"
       },
       "5-Star": {
-        "Rate": "12.121%",
-        "Count": 31738
+        "Rate": "12.124%",
+        "Count": 31815
       },
-      "Total Obtained": 2744,
+      "Total Obtained": 2747,
       "Featured Image": "https://goyfield.moe/images/operators/preview/gilberta.png"
     },
     "Scars Of The Forge": {
-      "Total Users": 3102,
-      "Total Pulls": 320570,
-      "Oroberyl Spent": 160285000,
+      "Total Users": 3109,
+      "Total Pulls": 321412,
+      "Oroberyl Spent": 160706000,
       "6-Star": {
         "Rate": "1.717%",
-        "Count": 5505,
+        "Count": 5519,
         "Median Pity": 46,
         "Won": "52%"
       },
       "5-Star": {
-        "Rate": "12.340%",
-        "Count": 39559
+        "Rate": "12.342%",
+        "Count": 39668
       },
-      "Total Obtained": 3277,
+      "Total Obtained": 3283,
       "Featured Image": "https://goyfield.moe/images/operators/preview/laevatain.png"
     }
   }
