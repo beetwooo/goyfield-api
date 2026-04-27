@@ -69,37 +69,37 @@
       "Featured Image": "https://goyfield.moe/images/operators/preview/yvonne.png"
     },
     "The Floaty Messenger": {
-      "Total Users": 3267,
-      "Total Pulls": 270693,
-      "Oroberyl Spent": 135346500,
+      "Total Users": 3268,
+      "Total Pulls": 270769,
+      "Oroberyl Spent": 135384500,
       "6-Star": {
         "Rate": "1.817%",
-        "Count": 4919,
+        "Count": 4920,
         "Median Pity": 33,
         "Won": "51%"
       },
       "5-Star": {
-        "Rate": "12.117%",
-        "Count": 32799
+        "Rate": "12.116%",
+        "Count": 32806
       },
-      "Total Obtained": 2836,
+      "Total Obtained": 2838,
       "Featured Image": "https://goyfield.moe/images/operators/preview/gilberta.png"
     },
     "Scars Of The Forge": {
-      "Total Users": 3207,
-      "Total Pulls": 329991,
-      "Oroberyl Spent": 164995500,
+      "Total Users": 3209,
+      "Total Pulls": 330043,
+      "Oroberyl Spent": 165021500,
       "6-Star": {
         "Rate": "1.719%",
-        "Count": 5671,
+        "Count": 5673,
         "Median Pity": 46,
         "Won": "52%"
       },
       "5-Star": {
         "Rate": "12.343%",
-        "Count": 40732
+        "Count": 40738
       },
-      "Total Obtained": 3383,
+      "Total Obtained": 3385,
       "Featured Image": "https://goyfield.moe/images/operators/preview/laevatain.png"
     }
   }
