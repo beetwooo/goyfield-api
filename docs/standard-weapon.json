@@ -1,3 +1,89 @@
 {
-  "error": "Could not find the banner-type selector button on the page"
+  "Standard Weapon": {
+    "Solid Ice Issue": {
+      "Total Users": 1179,
+      "Total Pulls": 48603,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "5.047%",
+        "Count": 2453,
+        "Median Pity": 13,
+        "Won": "27%"
+      },
+      "5-Star": {
+        "Rate": "16.863%",
+        "Count": 8196
+      },
+      "Total Obtained": 804,
+      "Featured Image": null
+    },
+    "Cosmic Voice Issue": {
+      "Total Users": 3152,
+      "Total Pulls": 40802,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "4.225%",
+        "Count": 1724,
+        "Median Pity": 6,
+        "Won": "25%"
+      },
+      "5-Star": {
+        "Rate": "16.563%",
+        "Count": 6758
+      },
+      "Total Obtained": 454,
+      "Featured Image": null
+    },
+    "Far Expedition Issue": {
+      "Total Users": 1047,
+      "Total Pulls": 44555,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "5.030%",
+        "Count": 2241,
+        "Median Pity": 13,
+        "Won": "26%"
+      },
+      "5-Star": {
+        "Rate": "16.750%",
+        "Count": 7463
+      },
+      "Total Obtained": 704,
+      "Featured Image": null
+    },
+    "Rising Mount Issue": {
+      "Total Users": 409,
+      "Total Pulls": 15295,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "5.067%",
+        "Count": 775,
+        "Median Pity": 12,
+        "Won": "22%"
+      },
+      "5-Star": {
+        "Rate": "16.450%",
+        "Count": 2516
+      },
+      "Total Obtained": 212,
+      "Featured Image": null
+    },
+    "Thunderous Peal Issue": {
+      "Total Users": 289,
+      "Total Pulls": 10560,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "4.640%",
+        "Count": 490,
+        "Median Pity": 12,
+        "Won": "24%"
+      },
+      "5-Star": {
+        "Rate": "16.591%",
+        "Count": 1752
+      },
+      "Total Obtained": 143,
+      "Featured Image": null
+    }
+  }
 }
