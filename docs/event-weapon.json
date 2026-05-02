@@ -1,18 +1,18 @@
 {
   "Event Weapon": {
     "Drifting Raft Issue": {
-      "Total Users": 825,
-      "Total Pulls": 49160,
+      "Total Users": 826,
+      "Total Pulls": 49170,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.047%",
-        "Count": 2481,
+        "Rate": "5.048%",
+        "Count": 2482,
         "Median Pity": 14,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "17.114%",
-        "Count": 8413
+        "Rate": "17.116%",
+        "Count": 8416
       },
       "Total Obtained": 732,
       "Featured Image": null
