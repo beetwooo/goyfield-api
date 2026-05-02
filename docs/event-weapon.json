@@ -2,19 +2,19 @@
   "Event Weapon": {
     "Drifting Raft Issue": {
       "Total Users": 826,
-      "Total Pulls": 49170,
+      "Total Pulls": 49260,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.048%",
-        "Count": 2482,
+        "Rate": "5.055%",
+        "Count": 2490,
         "Median Pity": 14,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "17.116%",
-        "Count": 8416
+        "Rate": "17.125%",
+        "Count": 8436
       },
-      "Total Obtained": 732,
+      "Total Obtained": 734,
       "Featured Image": null
     },
     "Lupine Scarlet": {
@@ -86,20 +86,20 @@
       "Featured Image": null
     },
     "Smelting Forge Issue": {
-      "Total Users": 2769,
-      "Total Pulls": 188739,
+      "Total Users": 2770,
+      "Total Pulls": 188819,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.239%",
-        "Count": 9888,
+        "Count": 9893,
         "Median Pity": 14,
         "Won": "25%"
       },
       "5-Star": {
         "Rate": "17.116%",
-        "Count": 32305
+        "Count": 32318
       },
-      "Total Obtained": 3220,
+      "Total Obtained": 3221,
       "Featured Image": null
     }
   }
