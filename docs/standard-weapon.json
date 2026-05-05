@@ -1,35 +1,35 @@
 {
   "Standard Weapon": {
     "Solid Ice Issue": {
-      "Total Users": 1226,
-      "Total Pulls": 50407,
+      "Total Users": 1227,
+      "Total Pulls": 50437,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.055%",
-        "Count": 2548,
+        "Rate": "5.054%",
+        "Count": 2549,
         "Median Pity": 13,
         "Won": "27%"
       },
       "5-Star": {
         "Rate": "16.859%",
-        "Count": 8498
+        "Count": 8503
       },
-      "Total Obtained": 836,
+      "Total Obtained": 837,
       "Featured Image": null
     },
     "Cosmic Voice Issue": {
-      "Total Users": 3240,
-      "Total Pulls": 41823,
+      "Total Users": 3242,
+      "Total Pulls": 41843,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.208%",
+        "Rate": "4.206%",
         "Count": 1760,
         "Median Pity": 6,
         "Won": "26%"
       },
       "5-Star": {
         "Rate": "16.505%",
-        "Count": 6903
+        "Count": 6906
       },
       "Total Obtained": 466,
       "Featured Image": null
@@ -69,20 +69,20 @@
       "Featured Image": null
     },
     "Thunderous Peal Issue": {
-      "Total Users": 301,
-      "Total Pulls": 11070,
+      "Total Users": 302,
+      "Total Pulls": 11150,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.616%",
-        "Count": 511,
+        "Rate": "4.610%",
+        "Count": 514,
         "Median Pity": 12,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "16.658%",
-        "Count": 1844
+        "Rate": "16.655%",
+        "Count": 1857
       },
-      "Total Obtained": 151,
+      "Total Obtained": 152,
       "Featured Image": null
     }
   }
