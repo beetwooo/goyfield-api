@@ -1,18 +1,18 @@
 {
   "Event Weapon": {
     "Drifting Raft Issue": {
-      "Total Users": 909,
-      "Total Pulls": 54730,
+      "Total Users": 910,
+      "Total Pulls": 54790,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.107%",
-        "Count": 2795,
+        "Count": 2798,
         "Median Pity": 14,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "17.084%",
-        "Count": 9350
+        "Rate": "17.080%",
+        "Count": 9358
       },
       "Total Obtained": 820,
       "Featured Image": null
@@ -52,20 +52,20 @@
       "Featured Image": null
     },
     "Graffiti Issue": {
-      "Total Users": 1428,
-      "Total Pulls": 77122,
+      "Total Users": 1429,
+      "Total Pulls": 77202,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.152%",
-        "Count": 3973,
+        "Rate": "5.150%",
+        "Count": 3976,
         "Median Pity": 14,
         "Won": "22%"
       },
       "5-Star": {
-        "Rate": "17.217%",
-        "Count": 13278
+        "Rate": "17.221%",
+        "Count": 13295
       },
-      "Total Obtained": 1251,
+      "Total Obtained": 1252,
       "Featured Image": null
     },
     "Express Delivery Issue": {
@@ -86,20 +86,20 @@
       "Featured Image": null
     },
     "Smelting Forge Issue": {
-      "Total Users": 2829,
-      "Total Pulls": 192236,
+      "Total Users": 2830,
+      "Total Pulls": 192316,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.236%",
-        "Count": 10065,
+        "Rate": "5.235%",
+        "Count": 10067,
         "Median Pity": 14,
         "Won": "25%"
       },
       "5-Star": {
-        "Rate": "17.124%",
-        "Count": 32919
+        "Rate": "17.128%",
+        "Count": 32940
       },
-      "Total Obtained": 3280,
+      "Total Obtained": 3281,
       "Featured Image": null
     }
   }
