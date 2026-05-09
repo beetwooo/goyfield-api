@@ -18,37 +18,37 @@
       "Featured Image": null
     },
     "Cosmic Voice Issue": {
-      "Total Users": 3278,
-      "Total Pulls": 42280,
+      "Total Users": 3280,
+      "Total Pulls": 42300,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.198%",
+        "Rate": "4.196%",
         "Count": 1775,
         "Median Pity": 6,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "16.516%",
-        "Count": 6983
+        "Rate": "16.520%",
+        "Count": 6988
       },
       "Total Obtained": 469,
       "Featured Image": null
     },
     "Far Expedition Issue": {
-      "Total Users": 1101,
-      "Total Pulls": 47281,
+      "Total Users": 1102,
+      "Total Pulls": 47311,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.027%",
-        "Count": 2377,
-        "Median Pity": 13,
+        "Rate": "5.033%",
+        "Count": 2381,
+        "Median Pity": 12,
         "Won": "26%"
       },
       "5-Star": {
         "Rate": "16.734%",
-        "Count": 7912
+        "Count": 7917
       },
-      "Total Obtained": 742,
+      "Total Obtained": 743,
       "Featured Image": null
     },
     "Rising Mount Issue": {
@@ -69,20 +69,20 @@
       "Featured Image": null
     },
     "Thunderous Peal Issue": {
-      "Total Users": 310,
-      "Total Pulls": 11450,
+      "Total Users": 311,
+      "Total Pulls": 11520,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.594%",
-        "Count": 526,
+        "Rate": "4.592%",
+        "Count": 529,
         "Median Pity": 12,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "16.620%",
-        "Count": 1903
+        "Rate": "16.649%",
+        "Count": 1918
       },
-      "Total Obtained": 155,
+      "Total Obtained": 156,
       "Featured Image": null
     }
   }
