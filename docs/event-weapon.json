@@ -1,37 +1,37 @@
 {
   "Event Weapon": {
     "Drifting Raft Issue": {
-      "Total Users": 942,
-      "Total Pulls": 57450,
+      "Total Users": 943,
+      "Total Pulls": 57510,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.111%",
-        "Count": 2936,
+        "Rate": "5.112%",
+        "Count": 2940,
         "Median Pity": 14,
         "Won": "24%"
       },
       "5-Star": {
         "Rate": "17.084%",
-        "Count": 9815
+        "Count": 9825
       },
-      "Total Obtained": 865,
+      "Total Obtained": 866,
       "Featured Image": null
     },
     "Lupine Scarlet": {
-      "Total Users": 921,
-      "Total Pulls": 52305,
+      "Total Users": 922,
+      "Total Pulls": 52315,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.032%",
-        "Count": 2632,
+        "Rate": "5.037%",
+        "Count": 2635,
         "Median Pity": 15,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "17.023%",
+        "Rate": "17.020%",
         "Count": 8904
       },
-      "Total Obtained": 796,
+      "Total Obtained": 797,
       "Featured Image": null
     },
     "Brigand's Calling": {
@@ -69,20 +69,20 @@
       "Featured Image": null
     },
     "Express Delivery Issue": {
-      "Total Users": 2322,
-      "Total Pulls": 115994,
+      "Total Users": 2323,
+      "Total Pulls": 116024,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.086%",
-        "Count": 5899,
+        "Count": 5901,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.085%",
-        "Count": 19817
+        "Rate": "17.083%",
+        "Count": 19820
       },
-      "Total Obtained": 1930,
+      "Total Obtained": 1931,
       "Featured Image": null
     },
     "Smelting Forge Issue": {
