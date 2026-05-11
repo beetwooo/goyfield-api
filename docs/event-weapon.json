@@ -1,35 +1,35 @@
 {
   "Event Weapon": {
     "Drifting Raft Issue": {
-      "Total Users": 975,
-      "Total Pulls": 59970,
+      "Total Users": 976,
+      "Total Pulls": 60070,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.113%",
-        "Count": 3066,
+        "Rate": "5.109%",
+        "Count": 3069,
         "Median Pity": 14,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "17.084%",
-        "Count": 10245
+        "Rate": "17.088%",
+        "Count": 10265
       },
-      "Total Obtained": 899,
+      "Total Obtained": 900,
       "Featured Image": null
     },
     "Lupine Scarlet": {
-      "Total Users": 950,
-      "Total Pulls": 54115,
+      "Total Users": 951,
+      "Total Pulls": 54145,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.034%",
-        "Count": 2724,
+        "Rate": "5.033%",
+        "Count": 2725,
         "Median Pity": 15,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "17.038%",
-        "Count": 9220
+        "Rate": "17.034%",
+        "Count": 9223
       },
       "Total Obtained": 825,
       "Featured Image": null
@@ -69,37 +69,37 @@
       "Featured Image": null
     },
     "Express Delivery Issue": {
-      "Total Users": 2346,
-      "Total Pulls": 117034,
+      "Total Users": 2347,
+      "Total Pulls": 117074,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.095%",
-        "Count": 5963,
+        "Rate": "5.096%",
+        "Count": 5966,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.080%",
-        "Count": 19989
+        "Rate": "17.082%",
+        "Count": 19999
       },
-      "Total Obtained": 1954,
+      "Total Obtained": 1955,
       "Featured Image": null
     },
     "Smelting Forge Issue": {
-      "Total Users": 2869,
-      "Total Pulls": 194497,
+      "Total Users": 2870,
+      "Total Pulls": 194917,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.235%",
-        "Count": 10182,
+        "Rate": "5.234%",
+        "Count": 10201,
         "Median Pity": 14,
         "Won": "25%"
       },
       "5-Star": {
-        "Rate": "17.125%",
-        "Count": 33308
+        "Rate": "17.127%",
+        "Count": 33383
       },
-      "Total Obtained": 3320,
+      "Total Obtained": 3324,
       "Featured Image": null
     }
   }
