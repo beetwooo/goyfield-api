@@ -1,18 +1,18 @@
 {
   "Standard Weapon": {
     "Solid Ice Issue": {
-      "Total Users": 1287,
-      "Total Pulls": 52894,
+      "Total Users": 1288,
+      "Total Pulls": 52944,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.071%",
-        "Count": 2682,
+        "Rate": "5.070%",
+        "Count": 2684,
         "Median Pity": 13,
         "Won": "27%"
       },
       "5-Star": {
-        "Rate": "16.824%",
-        "Count": 8899
+        "Rate": "16.827%",
+        "Count": 8909
       },
       "Total Obtained": 880,
       "Featured Image": null
@@ -52,20 +52,20 @@
       "Featured Image": null
     },
     "Rising Mount Issue": {
-      "Total Users": 449,
-      "Total Pulls": 16973,
+      "Total Users": 450,
+      "Total Pulls": 16993,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.008%",
-        "Count": 850,
+        "Rate": "5.014%",
+        "Count": 852,
         "Median Pity": 12,
         "Won": "23%"
       },
       "5-Star": {
-        "Rate": "16.438%",
-        "Count": 2790
+        "Rate": "16.424%",
+        "Count": 2791
       },
-      "Total Obtained": 239,
+      "Total Obtained": 240,
       "Featured Image": null
     },
     "Thunderous Peal Issue": {
