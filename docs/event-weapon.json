@@ -36,19 +36,19 @@
     },
     "Drifting Raft Issue": {
       "Total Users": 1039,
-      "Total Pulls": 64030,
+      "Total Pulls": 64040,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.126%",
-        "Count": 3282,
+        "Rate": "5.128%",
+        "Count": 3284,
         "Median Pity": 14,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "17.150%",
-        "Count": 10981
+        "Rate": "17.149%",
+        "Count": 10982
       },
-      "Total Obtained": 960,
+      "Total Obtained": 962,
       "Featured Image": null
     },
     "Lupine Scarlet": {
@@ -69,20 +69,20 @@
       "Featured Image": null
     },
     "Brigand's Calling": {
-      "Total Users": 1192,
-      "Total Pulls": 62840,
+      "Total Users": 1193,
+      "Total Pulls": 62870,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.175%",
-        "Count": 3252,
+        "Rate": "5.174%",
+        "Count": 3253,
         "Median Pity": 15,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "16.921%",
-        "Count": 10633
+        "Rate": "16.919%",
+        "Count": 10637
       },
-      "Total Obtained": 1049,
+      "Total Obtained": 1050,
       "Featured Image": null
     },
     "Graffiti Issue": {
@@ -103,37 +103,37 @@
       "Featured Image": null
     },
     "Express Delivery Issue": {
-      "Total Users": 2387,
-      "Total Pulls": 119036,
+      "Total Users": 2388,
+      "Total Pulls": 119096,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.093%",
-        "Count": 6063,
+        "Count": 6065,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.079%",
-        "Count": 20330
+        "Rate": "17.077%",
+        "Count": 20338
       },
-      "Total Obtained": 1987,
+      "Total Obtained": 1988,
       "Featured Image": null
     },
     "Smelting Forge Issue": {
-      "Total Users": 2899,
-      "Total Pulls": 196506,
+      "Total Users": 2900,
+      "Total Pulls": 196586,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.230%",
-        "Count": 10277,
+        "Count": 10282,
         "Median Pity": 14,
         "Won": "25%"
       },
       "5-Star": {
         "Rate": "17.120%",
-        "Count": 33642
+        "Count": 33655
       },
-      "Total Obtained": 3351,
+      "Total Obtained": 3352,
       "Featured Image": null
     }
   }
