@@ -18,122 +18,122 @@
       "Featured Image": null
     },
     "banners.weponbox_1_2_3": {
-      "Total Users": 10,
-      "Total Pulls": 690,
+      "Total Users": 11,
+      "Total Pulls": 770,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.638%",
-        "Count": 32,
+        "Rate": "4.675%",
+        "Count": 36,
         "Median Pity": 21,
-        "Won": "12%"
+        "Won": "10%"
       },
       "5-Star": {
-        "Rate": "14.928%",
-        "Count": 103
+        "Rate": "15.065%",
+        "Count": 116
       },
-      "Total Obtained": 9,
+      "Total Obtained": 10,
       "Featured Image": null
     },
     "Drifting Raft Issue": {
-      "Total Users": 1082,
-      "Total Pulls": 67100,
+      "Total Users": 1085,
+      "Total Pulls": 67240,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.122%",
-        "Count": 3437,
+        "Rate": "5.128%",
+        "Count": 3448,
         "Median Pity": 14,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "17.091%",
-        "Count": 11468
+        "Rate": "17.087%",
+        "Count": 11489
       },
-      "Total Obtained": 1006,
+      "Total Obtained": 1010,
       "Featured Image": null
     },
     "Lupine Scarlet": {
-      "Total Users": 1025,
-      "Total Pulls": 58505,
+      "Total Users": 1028,
+      "Total Pulls": 58615,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.015%",
-        "Count": 2934,
+        "Rate": "5.016%",
+        "Count": 2940,
         "Median Pity": 15,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "17.072%",
-        "Count": 9988
+        "Rate": "17.078%",
+        "Count": 10010
       },
-      "Total Obtained": 903,
+      "Total Obtained": 905,
       "Featured Image": null
     },
     "Brigand's Calling": {
-      "Total Users": 1228,
-      "Total Pulls": 64860,
+      "Total Users": 1232,
+      "Total Pulls": 65010,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.179%",
-        "Count": 3359,
+        "Count": 3367,
         "Median Pity": 15,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "16.889%",
-        "Count": 10954
+        "Rate": "16.891%",
+        "Count": 10981
       },
-      "Total Obtained": 1086,
+      "Total Obtained": 1090,
       "Featured Image": null
     },
     "Graffiti Issue": {
-      "Total Users": 1547,
-      "Total Pulls": 84102,
+      "Total Users": 1548,
+      "Total Pulls": 84152,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.150%",
-        "Count": 4331,
+        "Rate": "5.149%",
+        "Count": 4333,
         "Median Pity": 14,
         "Won": "22%"
       },
       "5-Star": {
-        "Rate": "17.204%",
-        "Count": 14469
+        "Rate": "17.203%",
+        "Count": 14477
       },
-      "Total Obtained": 1377,
+      "Total Obtained": 1378,
       "Featured Image": null
     },
     "Express Delivery Issue": {
-      "Total Users": 2410,
-      "Total Pulls": 120167,
+      "Total Users": 2413,
+      "Total Pulls": 120267,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.098%",
-        "Count": 6126,
+        "Rate": "5.097%",
+        "Count": 6130,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.075%",
-        "Count": 20519
+        "Rate": "17.079%",
+        "Count": 20540
       },
-      "Total Obtained": 2011,
+      "Total Obtained": 2013,
       "Featured Image": null
     },
     "Smelting Forge Issue": {
-      "Total Users": 2930,
-      "Total Pulls": 198637,
+      "Total Users": 2932,
+      "Total Pulls": 198827,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.234%",
-        "Count": 10397,
+        "Count": 10407,
         "Median Pity": 14,
         "Won": "25%"
       },
       "5-Star": {
         "Rate": "17.122%",
-        "Count": 34011
+        "Count": 34043
       },
-      "Total Obtained": 3388,
+      "Total Obtained": 3391,
       "Featured Image": null
     }
   }
