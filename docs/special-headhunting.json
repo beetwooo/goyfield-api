@@ -1,105 +1,105 @@
 {
   "Special Headhunting": {
     "Thunder of Renewal": {
-      "Total Users": 1472,
-      "Total Pulls": 160951,
-      "Oroberyl Spent": 80475500,
+      "Total Users": 1483,
+      "Total Pulls": 162155,
+      "Oroberyl Spent": 81077500,
       "6-Star": {
         "Rate": "1.915%",
-        "Count": 3082,
+        "Count": 3106,
         "Median Pity": 44,
         "Won": "50%"
       },
       "5-Star": {
-        "Rate": "12.083%",
-        "Count": 19447
+        "Rate": "12.082%",
+        "Count": 19592
       },
-      "Total Obtained": 1728,
+      "Total Obtained": 1742,
       "Featured Image": "https://goyfield.moe/images/operators/preview/zhuangfy.png"
     },
     "Wolf Pearl": {
-      "Total Users": 1819,
-      "Total Pulls": 138543,
-      "Oroberyl Spent": 69271500,
+      "Total Users": 1830,
+      "Total Pulls": 139550,
+      "Oroberyl Spent": 69775000,
       "6-Star": {
-        "Rate": "1.849%",
-        "Count": 2561,
+        "Rate": "1.847%",
+        "Count": 2577,
         "Median Pity": 35,
         "Won": "52%"
       },
       "5-Star": {
-        "Rate": "12.011%",
-        "Count": 16641
+        "Rate": "12.004%",
+        "Count": 16752
       },
-      "Total Obtained": 1499,
+      "Total Obtained": 1509,
       "Featured Image": "https://goyfield.moe/images/operators/preview/rossi.png"
     },
     "River's Daughter": {
-      "Total Users": 2038,
-      "Total Pulls": 152274,
-      "Oroberyl Spent": 76137000,
+      "Total Users": 2049,
+      "Total Pulls": 153102,
+      "Oroberyl Spent": 76551000,
       "6-Star": {
-        "Rate": "1.866%",
-        "Count": 2841,
+        "Rate": "1.869%",
+        "Count": 2861,
         "Median Pity": 36,
         "Won": "50%"
       },
       "5-Star": {
         "Rate": "12.001%",
-        "Count": 18275
+        "Count": 18374
       },
-      "Total Obtained": 1628,
+      "Total Obtained": 1640,
       "Featured Image": "https://goyfield.moe/images/operators/preview/tangtang.png"
     },
     "Hues Of Passion": {
-      "Total Users": 2793,
-      "Total Pulls": 186984,
-      "Oroberyl Spent": 93492000,
+      "Total Users": 2804,
+      "Total Pulls": 187671,
+      "Oroberyl Spent": 93835500,
       "6-Star": {
         "Rate": "1.683%",
-        "Count": 3147,
+        "Count": 3158,
         "Median Pity": 31,
         "Won": "50%"
       },
       "5-Star": {
-        "Rate": "11.923%",
-        "Count": 22294
+        "Rate": "11.927%",
+        "Count": 22383
       },
-      "Total Obtained": 1805,
+      "Total Obtained": 1810,
       "Featured Image": "https://goyfield.moe/images/operators/preview/yvonne.png"
     },
     "The Floaty Messenger": {
-      "Total Users": 3767,
-      "Total Pulls": 308346,
-      "Oroberyl Spent": 154173000,
+      "Total Users": 3774,
+      "Total Pulls": 308906,
+      "Oroberyl Spent": 154453000,
       "6-Star": {
         "Rate": "1.813%",
-        "Count": 5591,
+        "Count": 5601,
         "Median Pity": 34,
         "Won": "50%"
       },
       "5-Star": {
         "Rate": "12.114%",
-        "Count": 37353
+        "Count": 37420
       },
-      "Total Obtained": 3208,
+      "Total Obtained": 3214,
       "Featured Image": "https://goyfield.moe/images/operators/preview/gilberta.png"
     },
     "Scars Of The Forge": {
-      "Total Users": 3522,
-      "Total Pulls": 357905,
-      "Oroberyl Spent": 178952500,
+      "Total Users": 3529,
+      "Total Pulls": 358637,
+      "Oroberyl Spent": 179318500,
       "6-Star": {
-        "Rate": "1.714%",
-        "Count": 6135,
+        "Rate": "1.713%",
+        "Count": 6145,
         "Median Pity": 46,
         "Won": "53%"
       },
       "5-Star": {
-        "Rate": "12.315%",
-        "Count": 44075
+        "Rate": "12.313%",
+        "Count": 44158
       },
-      "Total Obtained": 3678,
+      "Total Obtained": 3684,
       "Featured Image": "https://goyfield.moe/images/operators/preview/laevatain.png"
     }
   }
