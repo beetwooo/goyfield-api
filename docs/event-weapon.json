@@ -1,71 +1,71 @@
 {
   "Event Weapon": {
     "Smelting Fire Issue": {
-      "Total Users": 16,
-      "Total Pulls": 910,
+      "Total Users": 17,
+      "Total Pulls": 990,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.615%",
-        "Count": 42,
+        "Rate": "4.646%",
+        "Count": 46,
         "Median Pity": 15,
-        "Won": "26%"
+        "Won": "28%"
       },
       "5-Star": {
-        "Rate": "18.022%",
-        "Count": 164
+        "Rate": "17.980%",
+        "Count": 178
       },
-      "Total Obtained": 13,
+      "Total Obtained": 15,
       "Featured Image": null
     },
     "Swift Walker Issue": {
-      "Total Users": 28,
-      "Total Pulls": 1420,
+      "Total Users": 30,
+      "Total Pulls": 1520,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.352%",
-        "Count": 76,
-        "Median Pity": 16,
+        "Rate": "5.395%",
+        "Count": 82,
+        "Median Pity": 15,
         "Won": "25%"
       },
       "5-Star": {
-        "Rate": "15.423%",
-        "Count": 219
+        "Rate": "15.395%",
+        "Count": 234
       },
-      "Total Obtained": 26,
+      "Total Obtained": 28,
       "Featured Image": null
     },
     "Drifting Raft Issue": {
-      "Total Users": 1189,
-      "Total Pulls": 74080,
+      "Total Users": 1190,
+      "Total Pulls": 74260,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.148%",
-        "Count": 3814,
+        "Rate": "5.147%",
+        "Count": 3822,
         "Median Pity": 14,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "17.082%",
-        "Count": 12654
+        "Rate": "17.083%",
+        "Count": 12686
       },
-      "Total Obtained": 1129,
+      "Total Obtained": 1130,
       "Featured Image": null
     },
     "Lupine Scarlet": {
-      "Total Users": 1101,
-      "Total Pulls": 63195,
+      "Total Users": 1102,
+      "Total Pulls": 63235,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.027%",
-        "Count": 3177,
+        "Count": 3179,
         "Median Pity": 15,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "17.106%",
-        "Count": 10810
+        "Rate": "17.104%",
+        "Count": 10816
       },
-      "Total Obtained": 976,
+      "Total Obtained": 977,
       "Featured Image": null
     },
     "Brigand's Calling": {
@@ -86,52 +86,52 @@
       "Featured Image": null
     },
     "Graffiti Issue": {
-      "Total Users": 1620,
-      "Total Pulls": 88566,
+      "Total Users": 1621,
+      "Total Pulls": 88906,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.143%",
-        "Count": 4555,
+        "Rate": "5.146%",
+        "Count": 4575,
         "Median Pity": 14,
         "Won": "22%"
       },
       "5-Star": {
-        "Rate": "17.220%",
-        "Count": 15251
+        "Rate": "17.223%",
+        "Count": 15312
       },
-      "Total Obtained": 1447,
+      "Total Obtained": 1452,
       "Featured Image": null
     },
     "Express Delivery Issue": {
-      "Total Users": 2472,
-      "Total Pulls": 123461,
+      "Total Users": 2473,
+      "Total Pulls": 123561,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.090%",
-        "Count": 6284,
+        "Rate": "5.091%",
+        "Count": 6290,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
         "Rate": "17.092%",
-        "Count": 21102
+        "Count": 21119
       },
-      "Total Obtained": 2066,
+      "Total Obtained": 2067,
       "Featured Image": null
     },
     "Smelting Forge Issue": {
-      "Total Users": 2989,
-      "Total Pulls": 202141,
+      "Total Users": 2990,
+      "Total Pulls": 202181,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.231%",
-        "Count": 10575,
+        "Count": 10577,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.128%",
-        "Count": 34623
+        "Rate": "17.129%",
+        "Count": 34631
       },
       "Total Obtained": 3457,
       "Featured Image": null
