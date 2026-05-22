@@ -1,105 +1,105 @@
 {
   "Event Weapon": {
     "Smelting Fire Issue": {
-      "Total Users": 19,
-      "Total Pulls": 1060,
+      "Total Users": 20,
+      "Total Pulls": 1110,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.528%",
-        "Count": 48,
+        "Rate": "4.505%",
+        "Count": 50,
         "Median Pity": 15,
-        "Won": "29%"
+        "Won": "30%"
       },
       "5-Star": {
-        "Rate": "17.925%",
-        "Count": 190
+        "Rate": "17.838%",
+        "Count": 198
       },
-      "Total Obtained": 16,
+      "Total Obtained": 17,
       "Featured Image": null
     },
     "Swift Walker Issue": {
-      "Total Users": 33,
-      "Total Pulls": 1690,
+      "Total Users": 34,
+      "Total Pulls": 1770,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.207%",
-        "Count": 88,
+        "Rate": "5.254%",
+        "Count": 93,
         "Median Pity": 16,
-        "Won": "25%"
+        "Won": "24%"
       },
       "5-Star": {
-        "Rate": "16.213%",
-        "Count": 274
+        "Rate": "15.989%",
+        "Count": 283
       },
-      "Total Obtained": 31,
+      "Total Obtained": 32,
       "Featured Image": null
     },
     "Drifting Raft Issue": {
-      "Total Users": 1219,
-      "Total Pulls": 76360,
+      "Total Users": 1221,
+      "Total Pulls": 76450,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.162%",
-        "Count": 3942,
+        "Count": 3946,
         "Median Pity": 14,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "17.073%",
-        "Count": 13037
+        "Rate": "17.070%",
+        "Count": 13050
       },
-      "Total Obtained": 1170,
+      "Total Obtained": 1171,
       "Featured Image": null
     },
     "Lupine Scarlet": {
-      "Total Users": 1119,
-      "Total Pulls": 64285,
+      "Total Users": 1121,
+      "Total Pulls": 64375,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.035%",
-        "Count": 3237,
+        "Rate": "5.036%",
+        "Count": 3242,
         "Median Pity": 15,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "17.116%",
-        "Count": 11003
+        "Rate": "17.122%",
+        "Count": 11022
       },
-      "Total Obtained": 994,
+      "Total Obtained": 995,
       "Featured Image": null
     },
     "Brigand's Calling": {
-      "Total Users": 1329,
-      "Total Pulls": 70060,
+      "Total Users": 1331,
+      "Total Pulls": 70190,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.187%",
-        "Count": 3634,
+        "Rate": "5.184%",
+        "Count": 3639,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "16.923%",
-        "Count": 11856
+        "Rate": "16.918%",
+        "Count": 11875
       },
-      "Total Obtained": 1185,
+      "Total Obtained": 1187,
       "Featured Image": null
     },
     "Graffiti Issue": {
-      "Total Users": 1635,
-      "Total Pulls": 90208,
+      "Total Users": 1637,
+      "Total Pulls": 90258,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.146%",
-        "Count": 4642,
+        "Count": 4645,
         "Median Pity": 14,
         "Won": "22%"
       },
       "5-Star": {
-        "Rate": "17.227%",
-        "Count": 15540
+        "Rate": "17.225%",
+        "Count": 15547
       },
-      "Total Obtained": 1474,
+      "Total Obtained": 1477,
       "Featured Image": null
     },
     "Express Delivery Issue": {
@@ -120,20 +120,20 @@
       "Featured Image": null
     },
     "Smelting Forge Issue": {
-      "Total Users": 2997,
-      "Total Pulls": 202702,
+      "Total Users": 2998,
+      "Total Pulls": 202782,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.231%",
-        "Count": 10603,
+        "Count": 10607,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.124%",
-        "Count": 34710
+        "Rate": "17.123%",
+        "Count": 34722
       },
-      "Total Obtained": 3468,
+      "Total Obtained": 3469,
       "Featured Image": null
     }
   }
