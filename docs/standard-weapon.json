@@ -1,52 +1,52 @@
 {
   "Standard Weapon": {
     "Solid Ice Issue": {
-      "Total Users": 1379,
-      "Total Pulls": 56991,
+      "Total Users": 1380,
+      "Total Pulls": 57001,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.062%",
+        "Rate": "5.061%",
         "Count": 2885,
         "Median Pity": 13,
         "Won": "27%"
       },
       "5-Star": {
-        "Rate": "16.810%",
-        "Count": 9580
+        "Rate": "16.808%",
+        "Count": 9581
       },
       "Total Obtained": 952,
       "Featured Image": null
     },
     "Cosmic Voice Issue": {
-      "Total Users": 3484,
-      "Total Pulls": 45090,
+      "Total Users": 3486,
+      "Total Pulls": 45110,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.187%",
-        "Count": 1888,
+        "Rate": "4.188%",
+        "Count": 1889,
         "Median Pity": 6,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "16.523%",
-        "Count": 7450
+        "Rate": "16.528%",
+        "Count": 7456
       },
       "Total Obtained": 506,
       "Featured Image": null
     },
     "Far Expedition Issue": {
-      "Total Users": 1207,
-      "Total Pulls": 52142,
+      "Total Users": 1208,
+      "Total Pulls": 52152,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.034%",
-        "Count": 2625,
+        "Rate": "5.035%",
+        "Count": 2626,
         "Median Pity": 12,
         "Won": "25%"
       },
       "5-Star": {
-        "Rate": "16.754%",
-        "Count": 8736
+        "Rate": "16.753%",
+        "Count": 8737
       },
       "Total Obtained": 821,
       "Featured Image": null
