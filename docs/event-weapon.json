@@ -35,20 +35,20 @@
       "Featured Image": null
     },
     "Drifting Raft Issue": {
-      "Total Users": 1291,
-      "Total Pulls": 81070,
+      "Total Users": 1293,
+      "Total Pulls": 81230,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.156%",
-        "Count": 4180,
+        "Count": 4188,
         "Median Pity": 14,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "17.069%",
-        "Count": 13838
+        "Rate": "17.068%",
+        "Count": 13864
       },
-      "Total Obtained": 1247,
+      "Total Obtained": 1249,
       "Featured Image": null
     },
     "Lupine Scarlet": {
@@ -69,71 +69,71 @@
       "Featured Image": null
     },
     "Brigand's Calling": {
-      "Total Users": 1379,
-      "Total Pulls": 72900,
+      "Total Users": 1380,
+      "Total Pulls": 73000,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.181%",
-        "Count": 3777,
+        "Rate": "5.178%",
+        "Count": 3780,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "16.892%",
-        "Count": 12314
+        "Rate": "16.893%",
+        "Count": 12332
       },
-      "Total Obtained": 1231,
+      "Total Obtained": 1232,
       "Featured Image": null
     },
     "Graffiti Issue": {
-      "Total Users": 1676,
-      "Total Pulls": 92472,
+      "Total Users": 1677,
+      "Total Pulls": 92572,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.137%",
-        "Count": 4750,
+        "Rate": "5.135%",
+        "Count": 4754,
         "Median Pity": 14,
         "Won": "22%"
       },
       "5-Star": {
-        "Rate": "17.204%",
-        "Count": 15909
+        "Rate": "17.200%",
+        "Count": 15922
       },
-      "Total Obtained": 1512,
+      "Total Obtained": 1513,
       "Featured Image": null
     },
     "Express Delivery Issue": {
-      "Total Users": 2523,
-      "Total Pulls": 126134,
+      "Total Users": 2525,
+      "Total Pulls": 126305,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.092%",
-        "Count": 6423,
+        "Rate": "5.091%",
+        "Count": 6430,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.105%",
-        "Count": 21575
+        "Rate": "17.101%",
+        "Count": 21599
       },
-      "Total Obtained": 2113,
+      "Total Obtained": 2115,
       "Featured Image": null
     },
     "Smelting Forge Issue": {
-      "Total Users": 3036,
-      "Total Pulls": 205855,
+      "Total Users": 3037,
+      "Total Pulls": 205907,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.224%",
-        "Count": 10753,
+        "Count": 10757,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.126%",
-        "Count": 35254
+        "Rate": "17.124%",
+        "Count": 35259
       },
-      "Total Obtained": 3520,
+      "Total Obtained": 3521,
       "Featured Image": null
     }
   }
