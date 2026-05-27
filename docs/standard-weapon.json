@@ -1,71 +1,71 @@
 {
   "Standard Weapon": {
     "Solid Ice Issue": {
-      "Total Users": 1395,
-      "Total Pulls": 57372,
+      "Total Users": 1397,
+      "Total Pulls": 57452,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.063%",
-        "Count": 2905,
+        "Rate": "5.065%",
+        "Count": 2910,
         "Median Pity": 13,
         "Won": "27%"
       },
       "5-Star": {
-        "Rate": "16.811%",
-        "Count": 9645
+        "Rate": "16.816%",
+        "Count": 9661
       },
-      "Total Obtained": 959,
+      "Total Obtained": 960,
       "Featured Image": null
     },
     "Cosmic Voice Issue": {
-      "Total Users": 3525,
-      "Total Pulls": 45603,
+      "Total Users": 3527,
+      "Total Pulls": 45683,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.188%",
-        "Count": 1910,
+        "Rate": "4.194%",
+        "Count": 1916,
         "Median Pity": 6,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "16.534%",
-        "Count": 7540
+        "Rate": "16.529%",
+        "Count": 7551
       },
-      "Total Obtained": 512,
+      "Total Obtained": 514,
       "Featured Image": null
     },
     "Far Expedition Issue": {
-      "Total Users": 1219,
-      "Total Pulls": 52842,
+      "Total Users": 1222,
+      "Total Pulls": 52952,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.040%",
-        "Count": 2663,
+        "Rate": "5.039%",
+        "Count": 2668,
         "Median Pity": 12,
         "Won": "25%"
       },
       "5-Star": {
-        "Rate": "16.771%",
-        "Count": 8862
+        "Rate": "16.764%",
+        "Count": 8877
       },
-      "Total Obtained": 831,
+      "Total Obtained": 834,
       "Featured Image": null
     },
     "Rising Mount Issue": {
-      "Total Users": 484,
-      "Total Pulls": 18450,
+      "Total Users": 485,
+      "Total Pulls": 18470,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.003%",
-        "Count": 923,
+        "Rate": "5.008%",
+        "Count": 925,
         "Median Pity": 12,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "16.390%",
-        "Count": 3024
+        "Rate": "16.394%",
+        "Count": 3028
       },
-      "Total Obtained": 267,
+      "Total Obtained": 269,
       "Featured Image": null
     },
     "Thunderous Peal Issue": {
