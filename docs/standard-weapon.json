@@ -18,18 +18,18 @@
       "Featured Image": null
     },
     "Cosmic Voice Issue": {
-      "Total Users": 3532,
-      "Total Pulls": 45733,
+      "Total Users": 3533,
+      "Total Pulls": 45753,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "4.194%",
-        "Count": 1918,
+        "Count": 1919,
         "Median Pity": 6,
         "Won": "26%"
       },
       "5-Star": {
         "Rate": "16.526%",
-        "Count": 7558
+        "Count": 7561
       },
       "Total Obtained": 514,
       "Featured Image": null
@@ -69,20 +69,20 @@
       "Featured Image": null
     },
     "Thunderous Peal Issue": {
-      "Total Users": 337,
-      "Total Pulls": 12380,
+      "Total Users": 338,
+      "Total Pulls": 12430,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.572%",
-        "Count": 566,
+        "Rate": "4.578%",
+        "Count": 569,
         "Median Pity": 12,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "16.616%",
-        "Count": 2057
+        "Rate": "16.613%",
+        "Count": 2065
       },
-      "Total Obtained": 169,
+      "Total Obtained": 170,
       "Featured Image": null
     }
   }
