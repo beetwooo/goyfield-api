@@ -1,37 +1,37 @@
 {
   "Event Weapon": {
     "Smelting Fire Issue": {
-      "Total Users": 30,
-      "Total Pulls": 1470,
+      "Total Users": 31,
+      "Total Pulls": 1550,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.762%",
-        "Count": 70,
-        "Median Pity": 14,
-        "Won": "31%"
+        "Rate": "4.710%",
+        "Count": 73,
+        "Median Pity": 15,
+        "Won": "30%"
       },
       "5-Star": {
-        "Rate": "17.619%",
-        "Count": 259
+        "Rate": "17.484%",
+        "Count": 271
       },
-      "Total Obtained": 25,
+      "Total Obtained": 26,
       "Featured Image": null
     },
     "Swift Walker Issue": {
-      "Total Users": 46,
-      "Total Pulls": 2460,
+      "Total Users": 47,
+      "Total Pulls": 2490,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.325%",
-        "Count": 131,
-        "Median Pity": 15,
+        "Rate": "5.382%",
+        "Count": 134,
+        "Median Pity": 14,
         "Won": "25%"
       },
       "5-Star": {
-        "Rate": "16.382%",
-        "Count": 403
+        "Rate": "16.305%",
+        "Count": 406
       },
-      "Total Obtained": 44,
+      "Total Obtained": 45,
       "Featured Image": null
     },
     "Drifting Raft Issue": {
@@ -103,37 +103,37 @@
       "Featured Image": null
     },
     "Express Delivery Issue": {
-      "Total Users": 2534,
-      "Total Pulls": 126925,
+      "Total Users": 2535,
+      "Total Pulls": 126945,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.092%",
-        "Count": 6463,
+        "Rate": "5.094%",
+        "Count": 6467,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
         "Rate": "17.101%",
-        "Count": 21705
+        "Count": 21709
       },
-      "Total Obtained": 2124,
+      "Total Obtained": 2125,
       "Featured Image": null
     },
     "Smelting Forge Issue": {
-      "Total Users": 3045,
-      "Total Pulls": 206457,
+      "Total Users": 3046,
+      "Total Pulls": 206427,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.221%",
+        "Rate": "5.222%",
         "Count": 10780,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.123%",
-        "Count": 35352
+        "Rate": "17.124%",
+        "Count": 35349
       },
-      "Total Obtained": 3528,
+      "Total Obtained": 3529,
       "Featured Image": null
     }
   }
