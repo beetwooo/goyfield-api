@@ -1,18 +1,18 @@
 {
   "Standard Weapon": {
     "Solid Ice Issue": {
-      "Total Users": 1400,
-      "Total Pulls": 57562,
+      "Total Users": 1401,
+      "Total Pulls": 57572,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.064%",
+        "Rate": "5.063%",
         "Count": 2915,
         "Median Pity": 13,
         "Won": "27%"
       },
       "5-Star": {
-        "Rate": "16.818%",
-        "Count": 9681
+        "Rate": "16.819%",
+        "Count": 9683
       },
       "Total Obtained": 961,
       "Featured Image": null
@@ -35,20 +35,20 @@
       "Featured Image": null
     },
     "Far Expedition Issue": {
-      "Total Users": 1225,
-      "Total Pulls": 53092,
+      "Total Users": 1226,
+      "Total Pulls": 53172,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.037%",
-        "Count": 2674,
+        "Rate": "5.044%",
+        "Count": 2682,
         "Median Pity": 12,
         "Won": "25%"
       },
       "5-Star": {
-        "Rate": "16.758%",
-        "Count": 8897
+        "Rate": "16.753%",
+        "Count": 8908
       },
-      "Total Obtained": 835,
+      "Total Obtained": 836,
       "Featured Image": null
     },
     "Rising Mount Issue": {
