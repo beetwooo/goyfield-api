@@ -1,20 +1,20 @@
 {
   "Event Weapon": {
     "Smelting Fire Issue": {
-      "Total Users": 34,
-      "Total Pulls": 1720,
+      "Total Users": 35,
+      "Total Pulls": 1800,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.535%",
-        "Count": 78,
+        "Rate": "4.500%",
+        "Count": 81,
         "Median Pity": 15,
-        "Won": "32%"
+        "Won": "31%"
       },
       "5-Star": {
-        "Rate": "17.616%",
-        "Count": 303
+        "Rate": "17.778%",
+        "Count": 320
       },
-      "Total Obtained": 29,
+      "Total Obtained": 30,
       "Featured Image": null
     },
     "Swift Walker Issue": {
@@ -52,37 +52,37 @@
       "Featured Image": null
     },
     "Lupine Scarlet": {
-      "Total Users": 1198,
-      "Total Pulls": 68635,
+      "Total Users": 1199,
+      "Total Pulls": 68715,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.022%",
-        "Count": 3447,
+        "Rate": "5.021%",
+        "Count": 3450,
         "Median Pity": 15,
         "Won": "24%"
       },
       "5-Star": {
         "Rate": "17.140%",
-        "Count": 11764
+        "Count": 11778
       },
-      "Total Obtained": 1072,
+      "Total Obtained": 1073,
       "Featured Image": null
     },
     "Brigand's Calling": {
-      "Total Users": 1411,
-      "Total Pulls": 74320,
+      "Total Users": 1412,
+      "Total Pulls": 74350,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.179%",
-        "Count": 3849,
+        "Rate": "5.180%",
+        "Count": 3851,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "16.909%",
-        "Count": 12567
+        "Rate": "16.908%",
+        "Count": 12571
       },
-      "Total Obtained": 1256,
+      "Total Obtained": 1257,
       "Featured Image": null
     },
     "Graffiti Issue": {
