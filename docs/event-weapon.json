@@ -103,37 +103,37 @@
       "Featured Image": null
     },
     "Express Delivery Issue": {
-      "Total Users": 2551,
-      "Total Pulls": 127970,
+      "Total Users": 2552,
+      "Total Pulls": 127980,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.094%",
-        "Count": 6519,
+        "Rate": "5.095%",
+        "Count": 6520,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "17.093%",
-        "Count": 21874
+        "Rate": "17.096%",
+        "Count": 21879
       },
-      "Total Obtained": 2139,
+      "Total Obtained": 2140,
       "Featured Image": null
     },
     "Smelting Forge Issue": {
-      "Total Users": 3060,
-      "Total Pulls": 207469,
+      "Total Users": 3061,
+      "Total Pulls": 207490,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.222%",
-        "Count": 10834,
+        "Count": 10835,
         "Median Pity": 14,
         "Won": "26%"
       },
       "5-Star": {
         "Rate": "17.125%",
-        "Count": 35529
+        "Count": 35533
       },
-      "Total Obtained": 3547,
+      "Total Obtained": 3548,
       "Featured Image": null
     }
   }
