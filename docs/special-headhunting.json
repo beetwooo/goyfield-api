@@ -1,60 +1,60 @@
 {
   "Special Headhunting": {
     "Thunder of Renewal": {
-      "Total Users": 1686,
-      "Total Pulls": 186158,
-      "Oroberyl Spent": 93079000,
+      "Total Users": 1689,
+      "Total Pulls": 186463,
+      "Oroberyl Spent": 93231500,
       "6-Star": {
-        "Rate": "1.924%",
-        "Count": 3581,
-        "Median Pity": 47,
+        "Rate": "1.923%",
+        "Count": 3586,
+        "Median Pity": 46,
         "Won": "50%"
       },
       "5-Star": {
-        "Rate": "12.102%",
-        "Count": 22528
+        "Rate": "12.099%",
+        "Count": 22561
       },
-      "Total Obtained": 2017,
+      "Total Obtained": 2021,
       "Featured Image": "https://goyfield.moe/images/operators/preview/zhuangfy.png"
     },
     "Wolf Pearl": {
-      "Total Users": 2018,
-      "Total Pulls": 154001,
-      "Oroberyl Spent": 77000500,
+      "Total Users": 2021,
+      "Total Pulls": 154502,
+      "Oroberyl Spent": 77251000,
       "6-Star": {
-        "Rate": "1.834%",
-        "Count": 2825,
-        "Median Pity": 37,
+        "Rate": "1.836%",
+        "Count": 2836,
+        "Median Pity": 36,
         "Won": "52%"
       },
       "5-Star": {
-        "Rate": "12.006%",
-        "Count": 18490
+        "Rate": "12.008%",
+        "Count": 18553
       },
-      "Total Obtained": 1659,
+      "Total Obtained": 1666,
       "Featured Image": "https://goyfield.moe/images/operators/preview/rossi.png"
     },
     "River's Daughter": {
-      "Total Users": 2237,
-      "Total Pulls": 166670,
-      "Oroberyl Spent": 83335000,
+      "Total Users": 2240,
+      "Total Pulls": 166848,
+      "Oroberyl Spent": 83424000,
       "6-Star": {
-        "Rate": "1.869%",
-        "Count": 3115,
+        "Rate": "1.870%",
+        "Count": 3120,
         "Median Pity": 38,
         "Won": "50%"
       },
       "5-Star": {
-        "Rate": "12.014%",
-        "Count": 20023
+        "Rate": "12.012%",
+        "Count": 20042
       },
-      "Total Obtained": 1789,
+      "Total Obtained": 1793,
       "Featured Image": "https://goyfield.moe/images/operators/preview/tangtang.png"
     },
     "Hues Of Passion": {
-      "Total Users": 2990,
-      "Total Pulls": 198673,
-      "Oroberyl Spent": 99336500,
+      "Total Users": 2991,
+      "Total Pulls": 198675,
+      "Oroberyl Spent": 99337500,
       "6-Star": {
         "Rate": "1.678%",
         "Count": 3334,
@@ -62,7 +62,7 @@
         "Won": "50%"
       },
       "5-Star": {
-        "Rate": "11.925%",
+        "Rate": "11.924%",
         "Count": 23691
       },
       "Total Obtained": 1916,
