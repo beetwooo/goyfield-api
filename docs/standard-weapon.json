@@ -1,69 +1,69 @@
 {
   "Standard Weapon": {
     "Solid Ice Issue": {
-      "Total Users": 1408,
-      "Total Pulls": 57982,
+      "Total Users": 1409,
+      "Total Pulls": 58062,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.057%",
-        "Count": 2932,
+        "Count": 2936,
         "Median Pity": 13,
         "Won": "27%"
       },
       "5-Star": {
-        "Rate": "16.812%",
-        "Count": 9748
+        "Rate": "16.804%",
+        "Count": 9757
       },
-      "Total Obtained": 966,
+      "Total Obtained": 967,
       "Featured Image": null
     },
     "Cosmic Voice Issue": {
-      "Total Users": 3561,
-      "Total Pulls": 46074,
+      "Total Users": 3563,
+      "Total Pulls": 46114,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.189%",
-        "Count": 1930,
+        "Rate": "4.187%",
+        "Count": 1931,
         "Median Pity": 6,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "16.539%",
-        "Count": 7620
+        "Rate": "16.535%",
+        "Count": 7625
       },
       "Total Obtained": 516,
       "Featured Image": null
     },
     "Far Expedition Issue": {
-      "Total Users": 1232,
-      "Total Pulls": 53452,
+      "Total Users": 1233,
+      "Total Pulls": 53462,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.046%",
+        "Rate": "5.045%",
         "Count": 2697,
         "Median Pity": 12,
         "Won": "25%"
       },
       "5-Star": {
-        "Rate": "16.744%",
-        "Count": 8950
+        "Rate": "16.743%",
+        "Count": 8951
       },
       "Total Obtained": 840,
       "Featured Image": null
     },
     "Rising Mount Issue": {
-      "Total Users": 487,
-      "Total Pulls": 18550,
+      "Total Users": 488,
+      "Total Pulls": 18580,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.003%",
+        "Rate": "4.995%",
         "Count": 928,
         "Median Pity": 12,
         "Won": "24%"
       },
       "5-Star": {
-        "Rate": "16.404%",
-        "Count": 3043
+        "Rate": "16.399%",
+        "Count": 3047
       },
       "Total Obtained": 270,
       "Featured Image": null
