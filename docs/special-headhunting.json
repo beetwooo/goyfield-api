@@ -1,43 +1,43 @@
 {
   "Special Headhunting": {
     "Thunder of Renewal": {
-      "Total Users": 1700,
-      "Total Pulls": 187309,
-      "Oroberyl Spent": 93654500,
+      "Total Users": 1701,
+      "Total Pulls": 187689,
+      "Oroberyl Spent": 93844500,
       "6-Star": {
         "Rate": "1.924%",
-        "Count": 3603,
+        "Count": 3611,
         "Median Pity": 47,
         "Won": "50%"
       },
       "5-Star": {
-        "Rate": "12.100%",
-        "Count": 22664
+        "Rate": "12.101%",
+        "Count": 22713
       },
-      "Total Obtained": 2030,
+      "Total Obtained": 2035,
       "Featured Image": "https://goyfield.moe/images/operators/preview/zhuangfy.png"
     },
     "Wolf Pearl": {
-      "Total Users": 2031,
-      "Total Pulls": 155023,
-      "Oroberyl Spent": 77511500,
+      "Total Users": 2032,
+      "Total Pulls": 155033,
+      "Oroberyl Spent": 77516500,
       "6-Star": {
-        "Rate": "1.835%",
+        "Rate": "1.834%",
         "Count": 2844,
         "Median Pity": 36,
         "Won": "52%"
       },
       "5-Star": {
         "Rate": "12.005%",
-        "Count": 18611
+        "Count": 18612
       },
       "Total Obtained": 1674,
       "Featured Image": "https://goyfield.moe/images/operators/preview/rossi.png"
     },
     "River's Daughter": {
-      "Total Users": 2249,
-      "Total Pulls": 167352,
-      "Oroberyl Spent": 83676000,
+      "Total Users": 2250,
+      "Total Pulls": 167362,
+      "Oroberyl Spent": 83681000,
       "6-Star": {
         "Rate": "1.870%",
         "Count": 3129,
@@ -46,7 +46,7 @@
       },
       "5-Star": {
         "Rate": "12.009%",
-        "Count": 20097
+        "Count": 20099
       },
       "Total Obtained": 1799,
       "Featured Image": "https://goyfield.moe/images/operators/preview/tangtang.png"
