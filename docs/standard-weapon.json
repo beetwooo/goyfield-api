@@ -1,35 +1,35 @@
 {
   "Standard Weapon": {
     "Solid Ice Issue": {
-      "Total Users": 1412,
-      "Total Pulls": 58162,
+      "Total Users": 1413,
+      "Total Pulls": 58182,
       "Oroberyl Spent": null,
       "6-Star": {
         "Rate": "5.057%",
-        "Count": 2941,
+        "Count": 2942,
         "Median Pity": 13,
         "Won": "27%"
       },
       "5-Star": {
-        "Rate": "16.807%",
-        "Count": 9775
+        "Rate": "16.804%",
+        "Count": 9777
       },
-      "Total Obtained": 968,
+      "Total Obtained": 969,
       "Featured Image": null
     },
     "Cosmic Voice Issue": {
-      "Total Users": 3566,
-      "Total Pulls": 46184,
+      "Total Users": 3568,
+      "Total Pulls": 46204,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.185%",
-        "Count": 1933,
+        "Rate": "4.186%",
+        "Count": 1934,
         "Median Pity": 6,
         "Won": "26%"
       },
       "5-Star": {
-        "Rate": "16.534%",
-        "Count": 7636
+        "Rate": "16.533%",
+        "Count": 7639
       },
       "Total Obtained": 516,
       "Featured Image": null
