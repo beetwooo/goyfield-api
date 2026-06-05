@@ -1,88 +1,88 @@
 {
   "Standard Weapon": {
-    "Solid Ice Issue": {
-      "Total Users": 1445,
-      "Total Pulls": 59632,
+    "Solid Ice Issue\n01/22/26 - permanent": {
+      "Total Users": 1446,
+      "Total Pulls": 59712,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.056%",
-        "Count": 3015,
+        "Rate": "5.059%",
+        "Count": 3021,
         "Median Pity": 13,
         "Won": "27%"
       },
       "5-Star": {
-        "Rate": "16.791%",
-        "Count": 10013
+        "Rate": "16.784%",
+        "Count": 10022
       },
-      "Total Obtained": 996,
+      "Total Obtained": 997,
       "Featured Image": null
     },
-    "Cosmic Voice Issue": {
-      "Total Users": 3642,
-      "Total Pulls": 46997,
+    "Cosmic Voice Issue\n01/22/26 - permanent": {
+      "Total Users": 1446,
+      "Total Pulls": 59712,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.192%",
-        "Count": 1970,
-        "Median Pity": 5,
-        "Won": "26%"
+        "Rate": "5.059%",
+        "Count": 3021,
+        "Median Pity": 13,
+        "Won": "27%"
       },
       "5-Star": {
-        "Rate": "16.499%",
-        "Count": 7754
+        "Rate": "16.784%",
+        "Count": 10022
       },
-      "Total Obtained": 525,
+      "Total Obtained": 997,
       "Featured Image": null
     },
-    "Far Expedition Issue": {
-      "Total Users": 1265,
-      "Total Pulls": 54935,
+    "Far Expedition Issue\n01/22/26 - permanent": {
+      "Total Users": 1446,
+      "Total Pulls": 59712,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "5.035%",
-        "Count": 2766,
-        "Median Pity": 12,
-        "Won": "25%"
+        "Rate": "5.059%",
+        "Count": 3021,
+        "Median Pity": 13,
+        "Won": "27%"
       },
       "5-Star": {
-        "Rate": "16.758%",
-        "Count": 9206
+        "Rate": "16.784%",
+        "Count": 10022
       },
-      "Total Obtained": 870,
+      "Total Obtained": 997,
       "Featured Image": null
     },
-    "Rising Mount Issue": {
-      "Total Users": 504,
-      "Total Pulls": 19380,
+    "Rising Mount Issue\n01/22/26 - permanent": {
+      "Total Users": 1446,
+      "Total Pulls": 59712,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.995%",
-        "Count": 968,
-        "Median Pity": 12,
-        "Won": "24%"
+        "Rate": "5.059%",
+        "Count": 3021,
+        "Median Pity": 13,
+        "Won": "27%"
       },
       "5-Star": {
-        "Rate": "16.409%",
-        "Count": 3180
+        "Rate": "16.784%",
+        "Count": 10022
       },
-      "Total Obtained": 284,
+      "Total Obtained": 997,
       "Featured Image": null
     },
-    "Thunderous Peal Issue": {
-      "Total Users": 350,
-      "Total Pulls": 13000,
+    "Thunderous Peal Issue\n01/22/26 - permanent": {
+      "Total Users": 1446,
+      "Total Pulls": 59712,
       "Oroberyl Spent": null,
       "6-Star": {
-        "Rate": "4.531%",
-        "Count": 589,
-        "Median Pity": 12,
-        "Won": "25%"
+        "Rate": "5.059%",
+        "Count": 3021,
+        "Median Pity": 13,
+        "Won": "27%"
       },
       "5-Star": {
-        "Rate": "16.731%",
-        "Count": 2175
+        "Rate": "16.784%",
+        "Count": 10022
       },
-      "Total Obtained": 179,
+      "Total Obtained": 997,
       "Featured Image": null
     }
   }
