@@ -1,1 +1,1 @@
-open source goyfield api by @beetwooo_
+an open source goyfield api by @beetwooo_
