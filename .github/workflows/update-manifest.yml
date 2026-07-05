@@ -1,0 +1,62 @@
+name: Update Image Manifest
+
+on:
+  push:
+    paths:
+      - "images/**"
+
+permissions:
+  contents: write
+
+jobs:
+  manifest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate manifest.json
+        run: |
+          python3 << 'EOF'
+          import os, json
+
+          root = "images"
+          manifest = {}
+
+          for folder in sorted(os.listdir(root)):
+              path = os.path.join(root, folder)
+
+              if not os.path.isdir(path):
+                  continue
+
+              files = []
+
+              for file in sorted(os.listdir(path)):
+                  if file.lower().endswith((
+                      ".png",
+                      ".jpg",
+                      ".jpeg",
+                      ".gif",
+                      ".webp",
+                      ".avif"
+                  )):
+                      files.append(file)
+
+              manifest[folder] = files
+
+          with open(os.path.join(root, "manifest.json"), "w") as f:
+              json.dump(manifest, f, indent=2)
+
+          EOF
+
+      - name: Commit manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add images/manifest.json
+
+          git diff --cached --quiet || (
+            git commit -m "Auto-update image manifest"
+            git push
+          )
