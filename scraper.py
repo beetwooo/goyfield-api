@@ -1,9 +1,20 @@
+"""
+Standalone Promo Codes Scraper for goyfield.moe
+"""
+
 import re
 import json
 from playwright.sync_api import sync_playwright
 
-def extract_promo_codes(page) -> dict:
-    try:
+def extract_promo_codes():
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
+        page = browser.new_page()
+        
+        print("Loading https://goyfield.moe/ ...")
+        page.goto("https://goyfield.moe/", wait_until="networkidle", timeout=60000)
+        page.wait_for_timeout(6000)  # Wait for dynamic content
+
         text = page.evaluate("() => document.body.innerText")
         lines = [line.strip() for line in text.split('\n') if line.strip()]
 
@@ -15,12 +26,11 @@ def extract_promo_codes(page) -> dict:
                 code = line
                 promo_data[code] = {}
                 i += 1
-
+                
                 while i < len(lines) and not re.match(r'^[A-Z0-9]{8,}$', lines[i]):
                     current = lines[i]
-                    if re.match(r'^\d', current):  # This is a number line
+                    if re.match(r'^\d', current):
                         amount = current.strip()
-                        # Look for name in previous line
                         name = "Unknown"
                         if i > 0:
                             prev = lines[i-1].strip()
@@ -33,7 +43,7 @@ def extract_promo_codes(page) -> dict:
                             elif "INSP Kit" in prev or "kit" in prev.lower():
                                 name = "Arms INSP Kit"
                             else:
-                                name = prev  # fallback to previous line as name
+                                name = prev  # fallback
                         promo_data[code][name] = amount
                     i += 1
                 continue
@@ -43,13 +53,11 @@ def extract_promo_codes(page) -> dict:
             "promo_codes": promo_data,
             "count": len(promo_data)
         }
-        print(f"  Found {len(promo_data)} promo codes with rewards")
-        return result
 
-    except Exception as e:
-        print(f"  Promo codes extraction failed: {e}")
-        return {"promo_codes": {}, "count": 0}
+        print(json.dumps(result, indent=2))
+        browser.close()
+        return result
 
 
 if __name__ == "__main__":
-    test_promo()
+    extract_promo_codes()
