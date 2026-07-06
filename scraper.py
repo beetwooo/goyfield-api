@@ -10,11 +10,13 @@ import sys
 
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
-# Output directory
+# ── Output dir ────────────────────────────────────────────────────────────────
+
 DOCS_DIR = "docs"
 os.makedirs(DOCS_DIR, exist_ok=True)
 
-# Banner config
+# ── Banner config ─────────────────────────────────────────────────────────────
+
 SINGLE_BANNERS = {
     "Basic Headhunting":        f"{DOCS_DIR}/basic-headhunting.json",
     "New Horizons Headhunting": f"{DOCS_DIR}/new-horizons-headhunting.json",
@@ -31,6 +33,8 @@ ALL_BANNER_TYPES = list(SINGLE_BANNERS.keys()) + list(MULTI_BANNERS.keys())
 DEBUG_DIR = "debug_screenshots"
 
 
+# ── Debug helper ──────────────────────────────────────────────────────────────
+
 def screenshot(page, name: str, debug: bool):
     if not debug:
         return
@@ -39,6 +43,8 @@ def screenshot(page, name: str, debug: bool):
     page.screenshot(path=path, full_page=True)
     print(f"  [debug] {path}")
 
+
+# ── Value cleaner ─────────────────────────────────────────────────────────────
 
 def clean(v):
     if v is None:
@@ -58,7 +64,8 @@ def clean(v):
         return v
 
 
-# Improved Promo Codes Extractor
+# ── Promo Codes Extractor ─────────────────────────────────────────────────────
+
 def extract_promo_codes(page) -> dict:
     try:
         text = page.evaluate("() => document.body.innerText")
@@ -73,13 +80,13 @@ def extract_promo_codes(page) -> dict:
                 promo_data[code] = {}
                 i += 1
 
-                for offset in range(12):
+                for offset in range(15):
                     if i + offset >= len(lines):
                         break
                     rline = lines[i + offset]
                     if re.match(r'^\d', rline):
                         amount = rline.strip()
-                        context = " ".join(lines[max(0, i+offset-4):i+offset+4]).lower()
+                        context = " ".join(lines[max(0, i+offset-5):i+offset+5]).lower()
                         name = "Unknown"
                         if any(x in context for x in ["oro", "beryl"]):
                             name = "Oroberyl"
@@ -104,7 +111,8 @@ def extract_promo_codes(page) -> dict:
         return {"promo_codes": {}, "count": 0}
 
 
-# GET_STATS_JS and other original functions
+# ── Original functions ────────────────────────────────────────────────────────
+
 GET_STATS_JS = r"""
 () => {
     const raw = (document.body.innerText || '').split('\n')
@@ -300,7 +308,8 @@ def scrape_sub_banners(page, debug: bool) -> dict:
     return result
 
 
-# Main Scrape Function
+# ── Main ──────────────────────────────────────────────────────────────────────
+
 def scrape(debug: bool):
     with sync_playwright() as p:
         browser = p.chromium.launch(
