@@ -1,5 +1,5 @@
 """
-Goyfield.moe Records Scraper + Promo Codes (Better Reward Names)
+Goyfield.moe Records Scraper + Promo Codes
 """
 
 import argparse
@@ -8,7 +8,7 @@ import os
 import re
 import sys
 
-from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
+from playwright.sync_api import sync_playwright
 
 DOCS_DIR = "docs"
 os.makedirs(DOCS_DIR, exist_ok=True)
@@ -35,7 +35,6 @@ def screenshot(page, name: str, debug: bool):
     os.makedirs(DEBUG_DIR, exist_ok=True)
     path = os.path.join(DEBUG_DIR, f"{name}.png")
     page.screenshot(path=path, full_page=True)
-    print(f"  [debug] {path}")
 
 
 def clean(v):
@@ -56,7 +55,7 @@ def clean(v):
         return v
 
 
-# ── Promo Codes with Better Reward Names ─────────────────────────────────────
+# ── Promo Codes with Reward Names ───────────────────────────────────────────
 
 def extract_promo_codes(page) -> dict:
     try:
@@ -76,15 +75,15 @@ def extract_promo_codes(page) -> dict:
                     rline = lines[i]
                     if re.match(r'^\d', rline):
                         amount = rline.strip()
-                        # Look for name in the previous few lines
                         name = f"Reward_{reward_idx}"
-                        for k in range(1, 6):
-                            if i - k >= 0:
-                                prev = lines[i - k].lower()
+                        # Look back for name
+                        for back in range(1, 7):
+                            if i - back >= 0:
+                                prev = lines[i - back].lower()
                                 if "oro" in prev or "beryl" in prev:
                                     name = "Oroberyl"
                                     break
-                                elif "t-cred" in prev or "tcred" in prev or "cred" in prev:
+                                elif "t-cred" in prev or "cred" in prev:
                                     name = "T-Creds"
                                     break
                                 elif "combat" in prev:
@@ -111,94 +110,7 @@ def extract_promo_codes(page) -> dict:
         return {"promo_codes": {}, "count": 0}
 
 
-# ── Rest of the original code (shortened) ─────────────────────────────────────
-
-GET_STATS_JS = r"""
-() => {
-    const raw = (document.body.innerText || '').split('\n')
-        .map(l => l.trim()).filter(l => l.length > 0);
-
-    function findNth(n, ...labels) {
-        let found = 0;
-        for (let i = 0; i < raw.length; i++) {
-            for (const label of labels) {
-                const sameLine = raw[i].startsWith(label + ' ') || raw[i].startsWith(label + '\t');
-                const nextLine = raw[i] === label;
-                if (sameLine || nextLine) {
-                    found++;
-                    if (found === n) {
-                        return sameLine ? raw[i].slice(label.length).trim()
-                                       : (i + 1 < raw.length ? raw[i + 1] : null);
-                    }
-                    break;
-                }
-            }
-        }
-        return null;
-    }
-
-    const rate6  = findNth(1, 'Rate');
-    const count6 = findNth(1, 'Count');
-    const pity6  = findNth(1, 'Median Pity', 'Median');
-    const won6   = findNth(1, 'Won 50:50', 'Won 25:75', 'Won');
-    const rate5  = findNth(2, 'Rate');
-    const count5 = findNth(2, 'Count');
-
-    function find(...labels) { return findNth(1, ...labels); }
-
-    let featured_img = null;
-    for (const img of document.querySelectorAll('img')) {
-        const src = img.getAttribute('src') || '';
-        if (src.includes('/operators/preview/') || src.includes('/weapons/preview/')) {
-            featured_img = src.startsWith('http') ? src : 'https://goyfield.moe' + src;
-            break;
-        }
-    }
-
-    return {
-        total_users:    find('Total Users'),
-        total_pulls:    find('Total Pulls'),
-        oroberyl_spent: find('Oroberyl Spent'),
-        total_obtained: find('Total Obtained', 'TOTAL OBTAINED'),
-        rate6, count6, pity6, won6,
-        rate5, count5,
-        featured_img,
-        _raw: raw,
-    };
-}
-"""
-
-def get_stats(page) -> dict:
-    return page.evaluate(GET_STATS_JS)
-
-
-def build_entry(raw: dict, include_obtained: bool = False, debug: bool = False) -> dict:
-    entry = {
-        "Total Users":    clean(raw.get("total_users")),
-        "Total Pulls":    clean(raw.get("total_pulls")),
-        "Oroberyl Spent": clean(raw.get("oroberyl_spent")),
-        "6-Star": {
-            "Rate":        raw.get("rate6"),
-            "Count":       clean(raw.get("count6")),
-            "Median Pity": clean(raw.get("pity6")),
-            "Won":         raw.get("won6"),
-        },
-        "5-Star": {
-            "Rate":  raw.get("rate5"),
-            "Count": clean(raw.get("count5")),
-        },
-    }
-    if include_obtained:
-        entry["Total Obtained"] = clean(raw.get("total_obtained"))
-        entry["Featured Image"] = raw.get("featured_img")
-    return entry
-
-
-# (The rest of your original functions: js_click_by_text, get_banner_type_button, switch_banner_type, get_sub_banner_trigger, get_sub_banner_names, scrape_sub_banners)
-
-# For brevity, I omitted the long unchanged functions. You can copy them from your original script and paste them here.
-
-# ── Main Scrape Function (simplified for this response) ───────────────────────
+# ── Main Scrape Function ──────────────────────────────────────────────────────
 
 def scrape(debug: bool):
     with sync_playwright() as p:
@@ -220,7 +132,7 @@ def scrape(debug: bool):
             json.dump(promo_data, f, indent=2, ensure_ascii=False)
         print(f"  Saved promo-codes.json")
 
-        # ... your banner scraping code ...
+        # Your banner scraping code here (copy from your original script)
 
         browser.close()
 
