@@ -1,13 +1,19 @@
 {
   "promo_codes": {
     "ENDFIELDGIFT": {
-      "Unknown": "20"
+      "Reward_1": "150",
+      "Reward_2": "10000",
+      "Reward_3": "20",
+      "Reward_4": "20"
     },
     "ENDFIELD4PC": {
-      "Unknown": "2"
+      "Reward_1": "13000",
+      "Reward_2": "2",
+      "Reward_3": "2"
     },
     "ZAU2SYXHWX5L4ZH": {
-      "Unknown": "10"
+      "Reward_1": "5000",
+      "Reward_2": "10"
     }
   },
   "count": 3
