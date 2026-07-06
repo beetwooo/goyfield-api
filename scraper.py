@@ -1,23 +1,20 @@
 """
-Goyfield.moe Records Scraper + Promo Codes with Rewards
-============================
+Goyfield.moe Records Scraper + Promo Codes
 """
 
 import argparse
 import json
 import os
-import sys
 import re
+import sys
 
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
-# ── Output dir ────────────────────────────────────────────────────────────────
-
+# Output directory
 DOCS_DIR = "docs"
 os.makedirs(DOCS_DIR, exist_ok=True)
 
-# ── Banner config ─────────────────────────────────────────────────────────────
-
+# Banner config
 SINGLE_BANNERS = {
     "Basic Headhunting":        f"{DOCS_DIR}/basic-headhunting.json",
     "New Horizons Headhunting": f"{DOCS_DIR}/new-horizons-headhunting.json",
@@ -34,8 +31,6 @@ ALL_BANNER_TYPES = list(SINGLE_BANNERS.keys()) + list(MULTI_BANNERS.keys())
 DEBUG_DIR = "debug_screenshots"
 
 
-# ── Debug helper ──────────────────────────────────────────────────────────────
-
 def screenshot(page, name: str, debug: bool):
     if not debug:
         return
@@ -44,8 +39,6 @@ def screenshot(page, name: str, debug: bool):
     page.screenshot(path=path, full_page=True)
     print(f"  [debug] {path}")
 
-
-# ── Value cleaner ─────────────────────────────────────────────────────────────
 
 def clean(v):
     if v is None:
@@ -65,70 +58,53 @@ def clean(v):
         return v
 
 
-# ── Promo Codes with Rewards ──────────────────────────────────────────────────
-
-# ── Improved Promo Codes with Rewards ────────────────────────────────────────
-
+# Improved Promo Codes Extractor
 def extract_promo_codes(page) -> dict:
-    """Better extraction of promo codes + rewards"""
     try:
         text = page.evaluate("() => document.body.innerText")
         lines = [line.strip() for line in text.split('\n') if line.strip()]
-        
+
         promo_data = {}
         i = 0
         while i < len(lines):
             line = lines[i]
-            
-            # Detect code
             if re.match(r'^[A-Z0-9]{8,}$', line):
                 code = line
                 promo_data[code] = {}
                 i += 1
-                
-                # Collect next few lines as rewards
-                reward_block = []
-                while i < len(lines) and not re.match(r'^[A-Z0-9]{8,}$', lines[i]) and len(reward_block) < 10:
-                    reward_block.append(lines[i])
-                    i += 1
-                
-                # Parse reward block
-                for j, rline in enumerate(reward_block):
-                    if re.match(r'^\d', rline):  # line starts with number = amount
+
+                for offset in range(12):
+                    if i + offset >= len(lines):
+                        break
+                    rline = lines[i + offset]
+                    if re.match(r'^\d', rline):
                         amount = rline.strip()
-                        # Look for name in previous or next line
+                        context = " ".join(lines[max(0, i+offset-4):i+offset+4]).lower()
                         name = "Unknown"
-                        if j > 0:
-                            prev = reward_block[j-1].lower()
-                            if any(k in prev for k in ["oro", "beryl"]):
-                                name = "Oroberyl"
-                            elif any(k in prev for k in ["t-cred", "tcred", "cred"]):
-                                name = "T-Creds"
-                            elif "combat" in prev:
-                                name = "Combat Record"
-                            elif "insp" in prev or "kit" in prev:
-                                name = "Arms INSP Kit"
+                        if any(x in context for x in ["oro", "beryl"]):
+                            name = "Oroberyl"
+                        elif any(x in context for x in ["t-cred", "tcred", "cred"]):
+                            name = "T-Creds"
+                        elif "combat" in context:
+                            name = "Combat Record"
+                        elif any(x in context for x in ["insp", "kit"]):
+                            name = "Arms INSP Kit"
                         promo_data[code][name] = amount
-                continue
-            
             i += 1
 
         result = {
             "promo_codes": promo_data,
             "count": len(promo_data)
         }
-        
-        print(f"  ✓ Extracted {len(promo_data)} promo codes with rewards")
-        for code, rewards in promo_data.items():
-            print(f"    {code}: {rewards}")
+        print(f"  Found {len(promo_data)} promo codes")
         return result
 
     except Exception as e:
-        print(f"  ✗ Promo codes extraction failed: {e}")
+        print(f"  Promo codes extraction failed: {e}")
         return {"promo_codes": {}, "count": 0}
 
-# ── Your original functions (GET_STATS_JS, get_stats, build_entry, etc.) ───────
 
+# GET_STATS_JS and other original functions
 GET_STATS_JS = r"""
 () => {
     const raw = (document.body.innerText || '').split('\n')
@@ -189,8 +165,6 @@ def get_stats(page) -> dict:
 
 
 def build_entry(raw: dict, include_obtained: bool = False, debug: bool = False) -> dict:
-    if debug:
-        print(f"    [raw sample] {raw.get('_raw', [])[:30]}")
     entry = {
         "Total Users":    clean(raw.get("total_users")),
         "Total Pulls":    clean(raw.get("total_pulls")),
@@ -211,8 +185,6 @@ def build_entry(raw: dict, include_obtained: bool = False, debug: bool = False) 
         entry["Featured Image"] = raw.get("featured_img")
     return entry
 
-
-# ── Click helpers, banner switcher, sub-banner helpers (unchanged) ───────────
 
 def js_click_by_text(page, target: str) -> bool:
     return page.evaluate("""(target) => {
@@ -253,7 +225,7 @@ def switch_banner_type(page, target: str, debug: bool):
             try:
                 _, new_current = get_banner_type_button(page)
                 if new_current == target:
-                    print(f"  ✓ Switched to: {target}")
+                    print(f"  Switched to: {target}")
                     return
             except Exception:
                 pass
@@ -298,7 +270,7 @@ def scrape_sub_banners(page, debug: bool) -> dict:
 
     screenshot(page, default_name, debug)
     result[default_name] = build_entry(get_stats(page), include_obtained=True, debug=debug)
-    print(f"  ✓ {default_name}")
+    print(f"  {default_name}")
 
     trigger.click()
     page.wait_for_timeout(2000)
@@ -320,16 +292,15 @@ def scrape_sub_banners(page, debug: bool) -> dict:
             page.wait_for_timeout(3000)
             screenshot(page, name, debug)
             result[name] = build_entry(get_stats(page), include_obtained=True, debug=debug)
-            print(f"  ✓ {name}")
+            print(f"  {name}")
         except Exception as e:
-            print(f"  ✗ {name}: {e}")
+            print(f"  Error on {name}: {e}")
             screenshot(page, f"error_{name}", debug)
             result[name] = None
     return result
 
 
-# ── Main Scrape Function ──────────────────────────────────────────────────────
-
+# Main Scrape Function
 def scrape(debug: bool):
     with sync_playwright() as p:
         browser = p.chromium.launch(
@@ -341,21 +312,16 @@ def scrape(debug: bool):
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
         })
 
-        # ====================== PROMO CODES ======================
-        print("\n" + "="*60)
-        print("  ▶ Extracting Promo Codes + Rewards from homepage")
-        print("="*60)
+        # Promo Codes
+        print("\n=== Extracting Promo Codes + Rewards ===")
         page.goto("https://goyfield.moe/", wait_until="networkidle", timeout=60000)
         page.wait_for_timeout(5000)
-        
         promo_data = extract_promo_codes(page)
-        promo_file = f"{DOCS_DIR}/promo-codes.json"
-        with open(promo_file, "w", encoding="utf-8") as f:
+        with open(f"{DOCS_DIR}/promo-codes.json", "w", encoding="utf-8") as f:
             json.dump(promo_data, f, indent=2, ensure_ascii=False)
-        print(f"Saved → {promo_file}")
-        # ====================== END PROMO CODES ======================
+        print(f"  Saved promo-codes.json")
 
-        # Your original banner scraping
+        # Banner scraping
         print(f"Loading https://goyfield.moe/records/global …")
         page.goto("https://goyfield.moe/records/global", wait_until="networkidle", timeout=60000)
         page.wait_for_timeout(5000)
@@ -366,7 +332,7 @@ def scrape(debug: bool):
                 if btn.is_visible(timeout=2000):
                     btn.click()
                     page.wait_for_timeout(1000)
-                    print(f"  [cookie] Dismissed via '{label}'")
+                    print(f"  Cookie banner dismissed")
                     break
         except Exception:
             pass
@@ -375,9 +341,9 @@ def scrape(debug: bool):
 
         # Single banners
         for banner_label, filename in SINGLE_BANNERS.items():
-            print(f"\n{'━'*60}")
-            print(f"  ▶ {banner_label} (single)")
-            print(f"{'━'*60}")
+            print(f"\n{'='*60}")
+            print(f"  {banner_label} (single)")
+            print(f"{'='*60}")
             try:
                 switch_banner_type(page, banner_label, debug)
                 page.wait_for_timeout(2000)
@@ -385,18 +351,18 @@ def scrape(debug: bool):
                 data = {banner_label: build_entry(get_stats(page), debug=debug)}
                 with open(filename, "w", encoding="utf-8") as f:
                     json.dump(data, f, indent=2, ensure_ascii=False)
-                print(f"Saved → {filename}")
+                print(f"  Saved {filename}")
             except Exception as e:
-                print(f"  ✗ Error: {e}")
+                print(f"  Error: {e}")
                 screenshot(page, f"error_{banner_label}", debug)
                 with open(filename, "w", encoding="utf-8") as f:
                     json.dump({"error": str(e)}, f, indent=2)
 
-        # Multi sub-banner banners
+        # Multi banners
         for banner_label, filename in MULTI_BANNERS.items():
-            print(f"\n{'━'*60}")
-            print(f"  ▶ {banner_label} (multi)")
-            print(f"{'━'*60}")
+            print(f"\n{'='*60}")
+            print(f"  {banner_label} (multi)")
+            print(f"{'='*60}")
             try:
                 switch_banner_type(page, banner_label, debug)
                 page.wait_for_timeout(2000)
@@ -404,16 +370,16 @@ def scrape(debug: bool):
                 data = {banner_label: sub_data}
                 with open(filename, "w", encoding="utf-8") as f:
                     json.dump(data, f, indent=2, ensure_ascii=False)
-                print(f"Saved → {filename}")
+                print(f"  Saved {filename}")
             except Exception as e:
-                print(f"  ✗ Error: {e}")
+                print(f"  Error: {e}")
                 screenshot(page, f"error_{banner_label}", debug)
                 with open(filename, "w", encoding="utf-8") as f:
                     json.dump({"error": str(e)}, f, indent=2)
 
         browser.close()
 
-    print("\nDone")
+    print("\nDone!")
 
 
 def test():
