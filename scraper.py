@@ -10,14 +10,13 @@ import sys
 import re
 
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
-from bs4 import BeautifulSoup  # Added for promo code extraction
 
 # ── Output dir ────────────────────────────────────────────────────────────────
 
 DOCS_DIR = "docs"
 os.makedirs(DOCS_DIR, exist_ok=True)
 
-# ── Banner config (unchanged) ────────────────────────────────────────────────
+# ── Banner config ─────────────────────────────────────────────────────────────
 
 SINGLE_BANNERS = {
     "Basic Headhunting":        f"{DOCS_DIR}/basic-headhunting.json",
@@ -35,7 +34,7 @@ ALL_BANNER_TYPES = list(SINGLE_BANNERS.keys()) + list(MULTI_BANNERS.keys())
 DEBUG_DIR = "debug_screenshots"
 
 
-# ── Debug helper (unchanged) ─────────────────────────────────────────────────
+# ── Debug helper ──────────────────────────────────────────────────────────────
 
 def screenshot(page, name: str, debug: bool):
     if not debug:
@@ -46,7 +45,7 @@ def screenshot(page, name: str, debug: bool):
     print(f"  [debug] {path}")
 
 
-# ── Value cleaner (unchanged) ────────────────────────────────────────────────
+# ── Value cleaner ─────────────────────────────────────────────────────────────
 
 def clean(v):
     if v is None:
@@ -66,43 +65,228 @@ def clean(v):
         return v
 
 
-# ── Promo Codes Extractor ────────────────────────────────────────────────────
+# ── Promo Codes Extractor ─────────────────────────────────────────────────────
 
 def extract_promo_codes(page) -> dict:
     """Extract promo codes from the homepage"""
     try:
-        # Get full page content
-        content = page.content()
-        soup = BeautifulSoup(content, 'html.parser')
-        text = soup.get_text()
-
-        # Find codes: uppercase + numbers, 8+ characters
+        text = page.evaluate("() => document.body.innerText")
         potential_codes = re.findall(r'\b[A-Z0-9]{8,}\b', text)
-        
-        # Deduplicate while preserving order
-        codes = list(dict.fromkeys(potential_codes))
+        codes = list(dict.fromkeys(potential_codes))  # deduplicate
 
         result = {
             "codes": codes,
             "count": len(codes)
         }
-
         print(f"  ✓ Found {len(codes)} promo code(s): {codes}")
         return result
-
     except Exception as e:
-        print(f"  ✗ Failed to extract promo codes: {e}")
+        print(f"  ✗ Promo codes extraction failed: {e}")
         return {"codes": [], "count": 0}
 
 
-# ── Rest of your original functions (GET_STATS_JS, get_stats, build_entry, etc.)
-# ... [I kept them unchanged - they are the same as your original file] ...
+# ── Your original GET_STATS_JS and functions (unchanged) ─────────────────────
 
-# (Paste all your original functions here: get_stats, build_entry, js_click_by_text, 
-#  get_banner_type_button, switch_banner_type, get_sub_banner_trigger, 
-#  get_sub_banner_names, scrape_sub_banners, etc.)
+GET_STATS_JS = r"""
+() => {
+    const raw = (document.body.innerText || '').split('\n')
+        .map(l => l.trim()).filter(l => l.length > 0);
 
-# ── Main Scrape Function ─────────────────────────────────────────────────────
+    function findNth(n, ...labels) {
+        let found = 0;
+        for (let i = 0; i < raw.length; i++) {
+            for (const label of labels) {
+                const sameLine = raw[i].startsWith(label + ' ') || raw[i].startsWith(label + '\t');
+                const nextLine = raw[i] === label;
+                if (sameLine || nextLine) {
+                    found++;
+                    if (found === n) {
+                        return sameLine ? raw[i].slice(label.length).trim()
+                                       : (i + 1 < raw.length ? raw[i + 1] : null);
+                    }
+                    break;
+                }
+            }
+        }
+        return null;
+    }
+
+    const rate6  = findNth(1, 'Rate');
+    const count6 = findNth(1, 'Count');
+    const pity6  = findNth(1, 'Median Pity', 'Median');
+    const won6   = findNth(1, 'Won 50:50', 'Won 25:75', 'Won');
+    const rate5  = findNth(2, 'Rate');
+    const count5 = findNth(2, 'Count');
+
+    function find(...labels) { return findNth(1, ...labels); }
+
+    let featured_img = null;
+    for (const img of document.querySelectorAll('img')) {
+        const src = img.getAttribute('src') || '';
+        if (src.includes('/operators/preview/') || src.includes('/weapons/preview/')) {
+            featured_img = src.startsWith('http') ? src : 'https://goyfield.moe' + src;
+            break;
+        }
+    }
+
+    return {
+        total_users:    find('Total Users'),
+        total_pulls:    find('Total Pulls'),
+        oroberyl_spent: find('Oroberyl Spent'),
+        total_obtained: find('Total Obtained', 'TOTAL OBTAINED'),
+        rate6, count6, pity6, won6,
+        rate5, count5,
+        featured_img,
+        _raw: raw,
+    };
+}
+"""
+
+def get_stats(page) -> dict:
+    return page.evaluate(GET_STATS_JS)
+
+
+def build_entry(raw: dict, include_obtained: bool = False, debug: bool = False) -> dict:
+    if debug:
+        print(f"    [raw sample] {raw.get('_raw', [])[:30]}")
+    entry = {
+        "Total Users":    clean(raw.get("total_users")),
+        "Total Pulls":    clean(raw.get("total_pulls")),
+        "Oroberyl Spent": clean(raw.get("oroberyl_spent")),
+        "6-Star": {
+            "Rate":        raw.get("rate6"),
+            "Count":       clean(raw.get("count6")),
+            "Median Pity": clean(raw.get("pity6")),
+            "Won":         raw.get("won6"),
+        },
+        "5-Star": {
+            "Rate":  raw.get("rate5"),
+            "Count": clean(raw.get("count5")),
+        },
+    }
+    if include_obtained:
+        entry["Total Obtained"] = clean(raw.get("total_obtained"))
+        entry["Featured Image"] = raw.get("featured_img")
+    return entry
+
+
+# ── Click helpers, switch_banner_type, sub-banner helpers (your original code) ─
+
+def js_click_by_text(page, target: str) -> bool:
+    return page.evaluate("""(target) => {
+        for (const el of document.querySelectorAll('*')) {
+            if (el.children.length > 0) continue;
+            if ((el.innerText || '').trim() === target) { el.click(); return true; }
+        }
+        for (const el of document.querySelectorAll('*')) {
+            if ((el.innerText || '').trim() === target) { el.click(); return true; }
+        }
+        return false;
+    }""", target)
+
+
+def get_banner_type_button(page):
+    for label in ALL_BANNER_TYPES:
+        btn = page.locator(f'button:has-text("{label}")').first
+        try:
+            if btn.is_visible(timeout=1000):
+                return btn, label
+        except Exception:
+            pass
+    raise RuntimeError("Could not find the banner-type selector button on the page")
+
+
+def switch_banner_type(page, target: str, debug: bool):
+    for attempt in range(3):
+        btn, current = get_banner_type_button(page)
+        if current == target:
+            print(f"  Already on: {target}")
+            return
+        print(f"  Switching '{current}' → '{target}' (attempt {attempt + 1})")
+        btn.click()
+        page.wait_for_timeout(2500)
+        clicked = js_click_by_text(page, target)
+        if clicked:
+            page.wait_for_timeout(3000)
+            try:
+                _, new_current = get_banner_type_button(page)
+                if new_current == target:
+                    print(f"  ✓ Switched to: {target}")
+                    return
+            except Exception:
+                pass
+        else:
+            print(f"  '{target}' not in DOM, retrying…")
+            page.wait_for_timeout(2000)
+    screenshot(page, f"switch_failed_{target.replace(' ', '_')}", debug)
+    raise RuntimeError(f"Could not switch to '{target}' after 3 attempts")
+
+
+def get_sub_banner_trigger(page):
+    for btn in page.locator("button").filter(has=page.locator("img")).all():
+        try:
+            text = btn.inner_text().strip()
+            if not any(t in text for t in ALL_BANNER_TYPES) and text:
+                return btn
+        except Exception:
+            pass
+    raise RuntimeError("Could not find sub-banner trigger button")
+
+
+def get_sub_banner_names(page, default_name: str) -> list[str]:
+    return page.evaluate("""(def) => {
+        const names = [];
+        const seen = new Set();
+        for (const el of document.querySelectorAll('li, [role="option"], [role="menuitem"]')) {
+            const t = (el.innerText || '').trim();
+            if (t && t.length > 1 && !seen.has(t)) {
+                seen.add(t);
+                names.push(t);
+            }
+        }
+        return names;
+    }""", default_name)
+
+
+def scrape_sub_banners(page, debug: bool) -> dict:
+    result = {}
+    trigger = get_sub_banner_trigger(page)
+    default_name = trigger.inner_text().strip()
+    print(f"  Default sub-banner: {default_name}")
+
+    screenshot(page, default_name, debug)
+    result[default_name] = build_entry(get_stats(page), include_obtained=True, debug=debug)
+    print(f"  ✓ {default_name}")
+
+    trigger.click()
+    page.wait_for_timeout(2000)
+    all_names = get_sub_banner_names(page, default_name)
+    other_names = [n for n in all_names if n != default_name]
+    print(f"  Other sub-banners: {other_names}")
+
+    for name in other_names:
+        try:
+            if not page.locator("li").first.is_visible():
+                trigger = get_sub_banner_trigger(page)
+                trigger.click()
+                page.wait_for_timeout(2000)
+            if not js_click_by_text(page, name):
+                for li in page.locator("li").all():
+                    if name in li.inner_text():
+                        li.click()
+                        break
+            page.wait_for_timeout(3000)
+            screenshot(page, name, debug)
+            result[name] = build_entry(get_stats(page), include_obtained=True, debug=debug)
+            print(f"  ✓ {name}")
+        except Exception as e:
+            print(f"  ✗ {name}: {e}")
+            screenshot(page, f"error_{name}", debug)
+            result[name] = None
+    return result
+
+
+# ── Main Scrape Function ──────────────────────────────────────────────────────
 
 def scrape(debug: bool):
     with sync_playwright() as p:
@@ -115,44 +299,96 @@ def scrape(debug: bool):
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
         })
 
-        # === Promo Codes (new) ===
+        # ====================== PROMO CODES ======================
         print("\n" + "="*60)
-        print("  ▶ Extracting Promo Codes from homepage")
+        print("  ▶ Extracting Promo Codes from https://goyfield.moe/")
         print("="*60)
         page.goto("https://goyfield.moe/", wait_until="networkidle", timeout=60000)
-        page.wait_for_timeout(3000)
-        
+        page.wait_for_timeout(4000)
         promo_data = extract_promo_codes(page)
         
         promo_file = f"{DOCS_DIR}/promo-codes.json"
         with open(promo_file, "w", encoding="utf-8") as f:
             json.dump(promo_data, f, indent=2, ensure_ascii=False)
-        print(f"  💾 Saved → {promo_file}")
+        print(f"  Saved → {promo_file}")
+        # ====================== END PROMO CODES ======================
 
-        # === Your original banner scraping (unchanged) ===
-        # ... paste the rest of your original scrape() function here ...
+        # Your original banner scraping starts here
+        print(f"Loading https://goyfield.moe/records/global …")
+        page.goto("https://goyfield.moe/records/global", wait_until="networkidle", timeout=60000)
+        page.wait_for_timeout(5000)
+
+        # Dismiss cookie banner
+        try:
+            for label in ("Accept", "Decline", "Accept all", "Got it"):
+                btn = page.get_by_role("button", name=label).first
+                if btn.is_visible(timeout=2000):
+                    btn.click()
+                    page.wait_for_timeout(1000)
+                    print(f"  [cookie] Dismissed via '{label}'")
+                    break
+        except Exception:
+            pass
+
+        screenshot(page, "initial", debug)
+
+        # Single banners
+        for banner_label, filename in SINGLE_BANNERS.items():
+            print(f"\n{'━'*60}")
+            print(f"  ▶ {banner_label} (single)")
+            print(f"{'━'*60}")
+            try:
+                switch_banner_type(page, banner_label, debug)
+                page.wait_for_timeout(2000)
+                screenshot(page, banner_label, debug)
+                data = {banner_label: build_entry(get_stats(page), debug=debug)}
+                with open(filename, "w", encoding="utf-8") as f:
+                    json.dump(data, f, indent=2, ensure_ascii=False)
+                print(f"  Saved → {filename}")
+            except Exception as e:
+                print(f"  ✗ Error: {e}")
+                screenshot(page, f"error_{banner_label}", debug)
+                with open(filename, "w", encoding="utf-8") as f:
+                    json.dump({"error": str(e)}, f, indent=2)
+
+        # Multi sub-banner banners
+        for banner_label, filename in MULTI_BANNERS.items():
+            print(f"\n{'━'*60}")
+            print(f"  ▶ {banner_label} (multi)")
+            print(f"{'━'*60}")
+            try:
+                switch_banner_type(page, banner_label, debug)
+                page.wait_for_timeout(2000)
+                sub_data = scrape_sub_banners(page, debug)
+                data = {banner_label: sub_data}
+                with open(filename, "w", encoding="utf-8") as f:
+                    json.dump(data, f, indent=2, ensure_ascii=False)
+                print(f"  Saved → {filename}")
+            except Exception as e:
+                print(f"  ✗ Error: {e}")
+                screenshot(page, f"error_{banner_label}", debug)
+                with open(filename, "w", encoding="utf-8") as f:
+                    json.dump({"error": str(e)}, f, indent=2)
 
         browser.close()
 
-    print("\n✅ Done! Output files:")
+    print("\n Done! Output files:")
     for fn in list(SINGLE_BANNERS.values()) + list(MULTI_BANNERS.values()) + [f"{DOCS_DIR}/promo-codes.json"]:
         if os.path.exists(fn):
             print(f"   {fn}  ({os.path.getsize(fn)} bytes)")
 
 
-# ── Test & Main (unchanged) ──────────────────────────────────────────────────
-
 def test():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
-        print("Playwright WORKS")
+        browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-setuid-sandbox"])
+        print("WORKS")
         browser.close()
 
 
 if __name__ == "__main__":
-    ap = argparse.ArgumentParser(description="Scrape goyfield.moe")
-    ap.add_argument("--debug", action="store_true", help="Save screenshots")
-    ap.add_argument("--test", action="store_true", help="Playwright test")
+    ap = argparse.ArgumentParser(description="Scrape goyfield.moe/records/global")
+    ap.add_argument("--debug", action="store_true", help="Save screenshots at each step")
+    ap.add_argument("--test",  action="store_true", help="Playwright sanity check and exit")
     args = ap.parse_args()
 
     if args.test:
