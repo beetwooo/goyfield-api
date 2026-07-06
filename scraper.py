@@ -1,5 +1,5 @@
 """
-Goyfield.moe Records Scraper + Promo Codes
+Goyfield.moe Records Scraper + Promo Codes with Rewards
 ============================
 """
 
@@ -65,27 +65,50 @@ def clean(v):
         return v
 
 
-# ── Promo Codes Extractor ─────────────────────────────────────────────────────
+# ── Promo Codes with Rewards ──────────────────────────────────────────────────
 
 def extract_promo_codes(page) -> dict:
-    """Extract promo codes from the homepage"""
+    """Extract promo codes and their rewards from homepage"""
     try:
         text = page.evaluate("() => document.body.innerText")
-        potential_codes = re.findall(r'\b[A-Z0-9]{8,}\b', text)
-        codes = list(dict.fromkeys(potential_codes))  # deduplicate
+        lines = [line.strip() for line in text.split('\n') if line.strip()]
+        
+        promo_data = {}
+        i = 0
+        while i < len(lines):
+            line = lines[i]
+            if re.match(r'^[A-Z0-9]{8,}$', line):
+                code = line
+                promo_data[code] = {}
+                i += 1
+                # Collect following reward lines
+                while i < len(lines) and not re.match(r'^[A-Z0-9]{8,}$', lines[i]):
+                    reward_line = lines[i]
+                    if re.match(r'^\d', reward_line):  # number = reward amount
+                        # Try to find reward name in nearby lines
+                        name = "Unknown"
+                        if i > 0 and any(k in lines[i-1].lower() for k in ["oro", "cred", "combat", "insp", "kit", "record"]):
+                            name = lines[i-1].strip()
+                        elif i + 1 < len(lines) and any(k in lines[i+1].lower() for k in ["oro", "cred", "combat", "insp", "kit", "record"]):
+                            name = lines[i+1].strip()
+                        promo_data[code][name] = reward_line.strip()
+                    i += 1
+                continue
+            i += 1
 
         result = {
-            "codes": codes,
-            "count": len(codes)
+            "promo_codes": promo_data,
+            "count": len(promo_data)
         }
-        print(f"  ✓ Found {len(codes)} promo code(s): {codes}")
+        print(f"  ✓ Extracted {len(promo_data)} promo code(s) with rewards")
         return result
+
     except Exception as e:
         print(f"  ✗ Promo codes extraction failed: {e}")
-        return {"codes": [], "count": 0}
+        return {"promo_codes": {}, "count": 0}
 
 
-# ── Your original GET_STATS_JS and functions (unchanged) ─────────────────────
+# ── Your original functions (GET_STATS_JS, get_stats, build_entry, etc.) ───────
 
 GET_STATS_JS = r"""
 () => {
@@ -170,7 +193,7 @@ def build_entry(raw: dict, include_obtained: bool = False, debug: bool = False) 
     return entry
 
 
-# ── Click helpers, switch_banner_type, sub-banner helpers (your original code) ─
+# ── Click helpers, banner switcher, sub-banner helpers (unchanged) ───────────
 
 def js_click_by_text(page, target: str) -> bool:
     return page.evaluate("""(target) => {
@@ -301,24 +324,23 @@ def scrape(debug: bool):
 
         # ====================== PROMO CODES ======================
         print("\n" + "="*60)
-        print("  ▶ Extracting Promo Codes from https://goyfield.moe/")
+        print("  ▶ Extracting Promo Codes + Rewards from homepage")
         print("="*60)
         page.goto("https://goyfield.moe/", wait_until="networkidle", timeout=60000)
-        page.wait_for_timeout(4000)
-        promo_data = extract_promo_codes(page)
+        page.wait_for_timeout(5000)
         
+        promo_data = extract_promo_codes(page)
         promo_file = f"{DOCS_DIR}/promo-codes.json"
         with open(promo_file, "w", encoding="utf-8") as f:
             json.dump(promo_data, f, indent=2, ensure_ascii=False)
-        print(f"  Saved → {promo_file}")
+        print(f"Saved → {promo_file}")
         # ====================== END PROMO CODES ======================
 
-        # Your original banner scraping starts here
+        # Your original banner scraping
         print(f"Loading https://goyfield.moe/records/global …")
         page.goto("https://goyfield.moe/records/global", wait_until="networkidle", timeout=60000)
         page.wait_for_timeout(5000)
 
-        # Dismiss cookie banner
         try:
             for label in ("Accept", "Decline", "Accept all", "Got it"):
                 btn = page.get_by_role("button", name=label).first
@@ -344,7 +366,7 @@ def scrape(debug: bool):
                 data = {banner_label: build_entry(get_stats(page), debug=debug)}
                 with open(filename, "w", encoding="utf-8") as f:
                     json.dump(data, f, indent=2, ensure_ascii=False)
-                print(f"  Saved → {filename}")
+                print(f"Saved → {filename}")
             except Exception as e:
                 print(f"  ✗ Error: {e}")
                 screenshot(page, f"error_{banner_label}", debug)
@@ -363,7 +385,7 @@ def scrape(debug: bool):
                 data = {banner_label: sub_data}
                 with open(filename, "w", encoding="utf-8") as f:
                     json.dump(data, f, indent=2, ensure_ascii=False)
-                print(f"  Saved → {filename}")
+                print(f"Saved → {filename}")
             except Exception as e:
                 print(f"  ✗ Error: {e}")
                 screenshot(page, f"error_{banner_label}", debug)
@@ -372,23 +394,20 @@ def scrape(debug: bool):
 
         browser.close()
 
-    print("\n Done! Output files:")
-    for fn in list(SINGLE_BANNERS.values()) + list(MULTI_BANNERS.values()) + [f"{DOCS_DIR}/promo-codes.json"]:
-        if os.path.exists(fn):
-            print(f"   {fn}  ({os.path.getsize(fn)} bytes)")
+    print("\nDone")
 
 
 def test():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-setuid-sandbox"])
-        print("WORKS")
+        browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
+        print("Playwright WORKS")
         browser.close()
 
 
 if __name__ == "__main__":
-    ap = argparse.ArgumentParser(description="Scrape goyfield.moe/records/global")
-    ap.add_argument("--debug", action="store_true", help="Save screenshots at each step")
-    ap.add_argument("--test",  action="store_true", help="Playwright sanity check and exit")
+    ap = argparse.ArgumentParser(description="Scrape goyfield.moe")
+    ap.add_argument("--debug", action="store_true")
+    ap.add_argument("--test", action="store_true")
     args = ap.parse_args()
 
     if args.test:
