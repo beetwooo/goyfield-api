@@ -1,5 +1,5 @@
 """
-Goyfield.moe Records Scraper + Promo Codes
+Goyfield.moe Records Scraper + Promo Codes (Fixed Rewards)
 """
 
 import argparse
@@ -64,7 +64,7 @@ def clean(v):
         return v
 
 
-# ── Promo Codes Extractor ─────────────────────────────────────────────────────
+# ── Promo Codes Extractor (Improved for current site layout) ──────────────────
 
 def extract_promo_codes(page) -> dict:
     try:
@@ -80,30 +80,34 @@ def extract_promo_codes(page) -> dict:
                 promo_data[code] = {}
                 i += 1
 
-                for offset in range(15):
-                    if i + offset >= len(lines):
-                        break
-                    rline = lines[i + offset]
+                # Look for reward block
+                reward_count = 0
+                while i < len(lines) and reward_count < 8 and not re.match(r'^[A-Z0-9]{8,}$', lines[i]):
+                    rline = lines[i]
                     if re.match(r'^\d', rline):
                         amount = rline.strip()
-                        context = " ".join(lines[max(0, i+offset-5):i+offset+5]).lower()
+                        # Find reward name from context
                         name = "Unknown"
-                        if any(x in context for x in ["oro", "beryl"]):
+                        context = " ".join(lines[max(0, i-6):i+6]).lower()
+                        if "oro" in context or "beryl" in context:
                             name = "Oroberyl"
-                        elif any(x in context for x in ["t-cred", "tcred", "cred"]):
+                        elif "t-cred" in context or "tcred" in context or "cred" in context:
                             name = "T-Creds"
                         elif "combat" in context:
                             name = "Combat Record"
-                        elif any(x in context for x in ["insp", "kit"]):
+                        elif "insp" in context or "kit" in context:
                             name = "Arms INSP Kit"
                         promo_data[code][name] = amount
+                        reward_count += 1
+                    i += 1
+                continue
             i += 1
 
         result = {
             "promo_codes": promo_data,
             "count": len(promo_data)
         }
-        print(f"  Found {len(promo_data)} promo codes")
+        print(f"  Found {len(promo_data)} promo codes with rewards")
         return result
 
     except Exception as e:
@@ -111,7 +115,7 @@ def extract_promo_codes(page) -> dict:
         return {"promo_codes": {}, "count": 0}
 
 
-# ── Original functions ────────────────────────────────────────────────────────
+# ── Original functions (unchanged) ────────────────────────────────────────────
 
 GET_STATS_JS = r"""
 () => {
