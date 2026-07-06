@@ -1,8 +1,14 @@
 {
-  "codes": [
-    "ENDFIELDGIFT",
-    "ENDFIELD4PC",
-    "ZAU2SYXHWX5L4ZH"
-  ],
+  "promo_codes": {
+    "ENDFIELDGIFT": {
+      "Unknown": "20"
+    },
+    "ENDFIELD4PC": {
+      "Unknown": "2"
+    },
+    "ZAU2SYXHWX5L4ZH": {
+      "Unknown": "10"
+    }
+  },
   "count": 3
 }
