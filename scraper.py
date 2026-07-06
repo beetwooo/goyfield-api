@@ -67,8 +67,10 @@ def clean(v):
 
 # ── Promo Codes with Rewards ──────────────────────────────────────────────────
 
+# ── Improved Promo Codes with Rewards ────────────────────────────────────────
+
 def extract_promo_codes(page) -> dict:
-    """Extract promo codes and their rewards from homepage"""
+    """Better extraction of promo codes + rewards"""
     try:
         text = page.evaluate("() => document.body.innerText")
         lines = [line.strip() for line in text.split('\n') if line.strip()]
@@ -77,36 +79,53 @@ def extract_promo_codes(page) -> dict:
         i = 0
         while i < len(lines):
             line = lines[i]
+            
+            # Detect code
             if re.match(r'^[A-Z0-9]{8,}$', line):
                 code = line
                 promo_data[code] = {}
                 i += 1
-                # Collect following reward lines
-                while i < len(lines) and not re.match(r'^[A-Z0-9]{8,}$', lines[i]):
-                    reward_line = lines[i]
-                    if re.match(r'^\d', reward_line):  # number = reward amount
-                        # Try to find reward name in nearby lines
-                        name = "Unknown"
-                        if i > 0 and any(k in lines[i-1].lower() for k in ["oro", "cred", "combat", "insp", "kit", "record"]):
-                            name = lines[i-1].strip()
-                        elif i + 1 < len(lines) and any(k in lines[i+1].lower() for k in ["oro", "cred", "combat", "insp", "kit", "record"]):
-                            name = lines[i+1].strip()
-                        promo_data[code][name] = reward_line.strip()
+                
+                # Collect next few lines as rewards
+                reward_block = []
+                while i < len(lines) and not re.match(r'^[A-Z0-9]{8,}$', lines[i]) and len(reward_block) < 10:
+                    reward_block.append(lines[i])
                     i += 1
+                
+                # Parse reward block
+                for j, rline in enumerate(reward_block):
+                    if re.match(r'^\d', rline):  # line starts with number = amount
+                        amount = rline.strip()
+                        # Look for name in previous or next line
+                        name = "Unknown"
+                        if j > 0:
+                            prev = reward_block[j-1].lower()
+                            if any(k in prev for k in ["oro", "beryl"]):
+                                name = "Oroberyl"
+                            elif any(k in prev for k in ["t-cred", "tcred", "cred"]):
+                                name = "T-Creds"
+                            elif "combat" in prev:
+                                name = "Combat Record"
+                            elif "insp" in prev or "kit" in prev:
+                                name = "Arms INSP Kit"
+                        promo_data[code][name] = amount
                 continue
+            
             i += 1
 
         result = {
             "promo_codes": promo_data,
             "count": len(promo_data)
         }
-        print(f"  ✓ Extracted {len(promo_data)} promo code(s) with rewards")
+        
+        print(f"  ✓ Extracted {len(promo_data)} promo codes with rewards")
+        for code, rewards in promo_data.items():
+            print(f"    {code}: {rewards}")
         return result
 
     except Exception as e:
         print(f"  ✗ Promo codes extraction failed: {e}")
         return {"promo_codes": {}, "count": 0}
-
 
 # ── Your original functions (GET_STATS_JS, get_stats, build_entry, etc.) ───────
 
