@@ -1,19 +1,19 @@
 {
   "promo_codes": {
     "ENDFIELDGIFT": {
-      "Reward_1": "150",
-      "Reward_2": "10000",
-      "Reward_3": "20",
-      "Reward_4": "20"
+      "Oroberyl": "150",
+      "T-Creds": "10000",
+      "Arms INSP Kit": "20",
+      "Combat Record": "20"
     },
     "ENDFIELD4PC": {
-      "Reward_1": "13000",
-      "Reward_2": "2",
-      "Reward_3": "2"
+      "T-Creds": "13000",
+      "Combat Record": "2",
+      "Arms INSP Kit": "2"
     },
     "ZAU2SYXHWX5L4ZH": {
-      "Reward_1": "5000",
-      "Reward_2": "10"
+      "T-Creds": "5000",
+      "Arms INSP Kit": "10"
     }
   },
   "count": 3
