@@ -1,4 +1,24 @@
 {
-  "promo_codes": {},
-  "count": 0
+  "promo_codes": {
+    "ENDFIELDGIFT": {
+      "Oroberyl": "150",
+      "T-Creds": "10000",
+      "Arms INSP Kit": "20",
+      "Combat Record": "20"
+    },
+    "ENDFIELD4PC": {
+      "T-Creds": "13000",
+      "Combat Record": "2",
+      "Arms INSP Kit": "2"
+    },
+    "ZAU2SYXHWX5L4ZH": {
+      "T-Creds": "5000",
+      "Arms INSP Kit": "10"
+    },
+    "ENDFIELDRENEW": {
+      "T-Creds": "71600",
+      "stickerSafetyHelmet": "1"
+    }
+  },
+  "count": 4
 }
