@@ -1,17 +1,3 @@
 {
-  "Basic Headhunting": {
-    "Total Users": 5127,
-    "Total Pulls": 573697,
-    "Oroberyl Spent": 286848500,
-    "6-Star": {
-      "Rate": "1.625%",
-      "Count": 9323,
-      "Median Pity": 54,
-      "Won": null
-    },
-    "5-Star": {
-      "Rate": "13.380%",
-      "Count": 76762
-    }
-  }
+  "error": "Could not find the banner-type selector button on the page"
 }
