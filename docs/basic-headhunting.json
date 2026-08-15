@@ -1,3 +1,17 @@
 {
-  "error": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button:has-text(\\\"Special Headhunting\\\")\").first\n    - locator resolved to <button class=\" relative w-full h-14 px-4 flex items-center justify-between border transition-colors duration-200 group rounded-md bg-[#363636] border-[#363636] text-white hover:bg-[#404040] \">\u2026</button>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div id=\"app-splash-screen\">\u2026</div> intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div id=\"app-splash-screen\">\u2026</div> intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    56 \u00d7 waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div id=\"app-splash-screen\">\u2026</div> intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n"
+  "Basic Headhunting": {
+    "Total Users": 6623,
+    "Total Pulls": 715132,
+    "Oroberyl Spent": 357566000,
+    "6-Star": {
+      "Rate": "1.647%",
+      "Count": 11777,
+      "Median Pity": 50,
+      "Won": null
+    },
+    "5-Star": {
+      "Rate": "13.393%",
+      "Count": 95778
+    }
+  }
 }

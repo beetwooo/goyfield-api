@@ -1,3 +1,89 @@
 {
-  "error": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button:has-text(\\\"Special Headhunting\\\")\").first\n    - locator resolved to <button class=\" relative w-full h-14 px-4 flex items-center justify-between border transition-colors duration-200 group rounded-md bg-[#363636] border-[#363636] text-white hover:bg-[#404040] \">\u2026</button>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div id=\"app-splash-screen\">\u2026</div> intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div id=\"app-splash-screen\">\u2026</div> intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    56 \u00d7 waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div id=\"app-splash-screen\">\u2026</div> intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n"
+  "Standard Weapon": {
+    "Solid Ice Issue\n01/22/26 - permanent": {
+      "Total Users": 1932,
+      "Total Pulls": 80868,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "5.066%",
+        "Count": 4097,
+        "Median Pity": 13,
+        "Won": "27%"
+      },
+      "5-Star": {
+        "Rate": "16.808%",
+        "Count": 13592
+      },
+      "Total Obtained": 1360,
+      "Featured Image": null
+    },
+    "Cosmic Voice Issue\n01/22/26 - permanent": {
+      "Total Users": 1932,
+      "Total Pulls": 80868,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "5.066%",
+        "Count": 4097,
+        "Median Pity": 13,
+        "Won": "27%"
+      },
+      "5-Star": {
+        "Rate": "16.808%",
+        "Count": 13592
+      },
+      "Total Obtained": 1360,
+      "Featured Image": null
+    },
+    "Far Expedition Issue\n01/22/26 - permanent": {
+      "Total Users": 1932,
+      "Total Pulls": 80868,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "5.066%",
+        "Count": 4097,
+        "Median Pity": 13,
+        "Won": "27%"
+      },
+      "5-Star": {
+        "Rate": "16.808%",
+        "Count": 13592
+      },
+      "Total Obtained": 1360,
+      "Featured Image": null
+    },
+    "Rising Mount Issue\n01/22/26 - permanent": {
+      "Total Users": 1932,
+      "Total Pulls": 80868,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "5.066%",
+        "Count": 4097,
+        "Median Pity": 13,
+        "Won": "27%"
+      },
+      "5-Star": {
+        "Rate": "16.808%",
+        "Count": 13592
+      },
+      "Total Obtained": 1360,
+      "Featured Image": null
+    },
+    "Thunderous Peal Issue\n01/22/26 - permanent": {
+      "Total Users": 1932,
+      "Total Pulls": 80868,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "5.066%",
+        "Count": 4097,
+        "Median Pity": 13,
+        "Won": "27%"
+      },
+      "5-Star": {
+        "Rate": "16.808%",
+        "Count": 13592
+      },
+      "Total Obtained": 1360,
+      "Featured Image": null
+    }
+  }
 }
