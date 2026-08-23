@@ -1,17 +1,3 @@
 {
-  "New Horizons Headhunting": {
-    "Total Users": 4793,
-    "Total Pulls": 188355,
-    "Oroberyl Spent": null,
-    "6-Star": {
-      "Rate": "2.627%",
-      "Count": 4949,
-      "Median Pity": 40,
-      "Won": null
-    },
-    "5-Star": {
-      "Rate": "12.589%",
-      "Count": 23712
-    }
-  }
+  "error": "Could not find the banner-type selector button on the page"
 }
