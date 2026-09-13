@@ -1,17 +1,17 @@
 {
   "Basic Headhunting": {
-    "Total Users": 7279,
-    "Total Pulls": 774765,
-    "Oroberyl Spent": 387382500,
+    "Total Users": 7283,
+    "Total Pulls": 775076,
+    "Oroberyl Spent": 387538000,
     "6-Star": {
       "Rate": "1.655%",
-      "Count": 12821,
+      "Count": 12826,
       "Median Pity": 48,
       "Won": null
     },
     "5-Star": {
       "Rate": "13.399%",
-      "Count": 103807
+      "Count": 103854
     }
   }
 }
