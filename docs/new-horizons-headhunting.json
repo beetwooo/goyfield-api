@@ -1,17 +1,17 @@
 {
   "New Horizons Headhunting": {
-    "Total Users": 5031,
-    "Total Pulls": 189800,
+    "Total Users": 5032,
+    "Total Pulls": 189840,
     "Oroberyl Spent": null,
     "6-Star": {
-      "Rate": "2.628%",
-      "Count": 4987,
+      "Rate": "2.627%",
+      "Count": 4988,
       "Median Pity": 40,
       "Won": null
     },
     "5-Star": {
-      "Rate": "12.600%",
-      "Count": 23914
+      "Rate": "12.599%",
+      "Count": 23918
     }
   }
 }
